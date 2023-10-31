@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coastline Of Maharashtra</title>
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<style>
+    #more {
+        display: none;
+    }
+</style>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+
+            </div>
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="photo.html">PHOTO</a>
+                <a href="mappage.html">PROJECT</a>
+            </div>
+        </nav>
+        <main>
+            <div class="indiaimg"> <img src="./img/india.jpg" alt=""></div>
+            <section class="aboutdetal">
+                <h1>MAHARASHTRA COASTLINE</h1>
+                <p>Maharashtra is the second most populous and third largest state of India. It spread over
+                    307713 Sq. Km and situated over west coast of India. Maharashtra occupies the western and
+                    central part of the country and as per statistical data available, Maharashtra has a long
+                    coastline stretching 720 kilometers along the Arabian Sea, which is divided, among 6<br>
+                    Districts as under: Out of this 720 Kms coastal length 400 Kms length is naturally protected, &
+                    About 320 Kms length is vulnerable to erosion. Out of this, protection for 145 Kms has been
+                    protected by artificial means such as Construction of Anti Sea Erosion Bund, Sea Wall, and each
+                    Nourishment inform of Geotubes etc. The remaining length is yet to be protected.<br>
+                    <span id="dots">...</span><span id="more">Out of this 720 Kms coastal length 400 Kms length is
+                        naturally protected, & About 320 Kms length is vulnerable to erosion. Out of this, protection
+                        for 145 Kms has been protected by artificial means such as Construction of Anti Sea Erosion
+                        Bund, Sea Wall, and each Nourishment inform of Geotubes etc. The remaining length is yet to be
+                        protected.
+                        For Development Of setback planning, hazard zoning, erosion – accretion studies, regional
+                        sediment budgets, modeling of coastal morph dynamics,
+                        survey of coastline with latest technology is required for preparing Coastal Management Plan for
+                        erosion control measures to ensure effective protection of shore lines, coastal infrastructure,
+                        livelihoods and lives.<br>
+                        IN Maharashtra Integrated Coastal Zone Management Is One Of The Tools To Achieve This Goal.
+                        Coastal Zones Involve Many Different Elements Of Development And Interaction And These Elements
+                        Change Due To Natural Or Human Factors.
+
+                        Temporal Change In Coastal Zones Is Reflected On The Coast Line. Coast Line Advance And Retreat
+                        Cause Major Changes On Coastal Zones.
+
+                    </span>
+                </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                <br>
+
+                </p>
+                <video width="500px" height="280" autoplay muted>
+                    <source src="./img/Coastal Video.mp4" type="video/mp4">               
+                </video>
+            </section>
+            <div class="barchartimg"><img src="./img/bar chart.jpg" alt=""></div>
+            <div>
+        </main>
+    </header>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+
+</html>
