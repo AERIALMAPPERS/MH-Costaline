@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coastline Of Maharashtra</title>
+    <title>(wp)Coastline</title>
     <link rel="stylesheet" href="./css/mappage.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+   
 
 </head>
 
@@ -24,43 +23,36 @@
             </div>
         </nav>
         <main>
-            <div class="mapcontent">
-                <div class="container1">
-                    <h2> Coastline Of Maharashtra</h2>
-            
-                <form action="">
-                   <select name="" id="district">
-                       <option value="">Select District</option>
-                   </select>   
-                     <select name="" id="taluka">
-                    <option value="">Select Taluka</option>
+        <div id="maplist">
+            <h2>Coastline of Maharashtra</h2>
+            <br>
+            <form id="villageSelector">
+                <select id="district">
+                    <option value="" disabled selected>Select District</option>
                 </select>
-                <select name="" id="village">
-                    <option value="">Select Village</option>
+                <select id="taluka">
+                    <option value="" disabled selected>Select Taluka</option>
                 </select>
-                </form>
+                <select id="village">
+                    <option value="" disabled selected>Select Village</option>
+                </select>
+                <button type="submit">Show Map</button>
+                <button type="button" >Show DWG</button>
+            </form>
+
+            <div id="dwg">
+                <!-- <a href="./dwg/AAMBEWADI.dwg"> Download DWG</a> -->
+                <!-- <a href="./dwg/Sindhudurg/VENGURLA/GAVTALE/GAVTALE.dwg  "> Download DWG</a> -->
             </div>
-            <div class="container2">
-                <img src="./img/mmap.png" alt="">
+        </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281449.12166386!2d72.11084160927498!3d20.757985656299642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1699124102702!5m2!1sen!2sin" width=" 1500px" height="710" style="border:1px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            </div>
-            <div id ="map"></div>
+        <!-- <script src="./village.js"></script> -->
+        <script src="./js/map.js"></script>
         </main>
     </header>
-    <script src="./js/App.js"></script> 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-    <script>
-
-       var map = L.map('map').setView([51.505, -0.09], 13);
-// osm laye
-       var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-       });
-       osm.addTo(map);
-       L.Control.geocoder().addTo(map);
-    </script>
-
+   
 </body>
 
 </html>
