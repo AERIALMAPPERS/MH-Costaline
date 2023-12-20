@@ -2,43 +2,415 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coastline Of Maharashtra</title>
 </head>
-<link rel="stylesheet" href="./css/home.css">
+<link rel="stylesheet" href="./css/index.css" />
+<link rel="stylesheet" href="./css/styles.css" />
 
 <body>
-    <header class="header">
-        <nav>
-            <div class="logo">
-            
-            </div>
-            <div class="menu">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="photo.html">PHOTO</a>
-                <a href="mappage.html">PROJECT</a>
-            </div>
-        </nav>
-        <main>
-            <div class="container">
-                <div class="logodiv"><img src="./img/logo1.jpg" alt=""></div>
-                <section>
-                    <h3>GOVERNMENT OF MAHARASHTRA </h3>
-                    <h2>PUBLIC WORKS DEPARTMENT </h2>
-                    <h4>HARBOUR ENGINEER, HARBOUR ENGINEERING DIVISION <br>KONKAN BHAVAN NAVI MUMBAI.</h4>
-                    <h1> DETAIL SURVEYING OF COASTLINE OF MAHARASHTRA INCLUDING<br> FIXING CHAINAGE AND MARKING POINTS
-                    </h1>
-                </section>
-                <div class="mahadiv">
-                    <div class="d1"><img src="./img/mmap1.png" alt=""></div>
-                    <div class="d2"><img src="./img/AMLogo.png" alt=""></div>
-                </div>
-            </div>
-        </main>
+
+    <!--MARQUEEE  -->
+    <marquee behavior="" direction="left">
+        <p> Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web based system to search,
+            view and download geo-references digital map & details of villages under in coastline area. </p>
+    </marquee>
+
+    <!-- HEADING -->
+    <header>
+        <div class="header">
+            <img src="./image/index/logo.jpg" alt="">
+            <h1>Maharashtra Coastline</h1>
+        </div>
     </header>
 
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html" onclick="setActive(this)" class="active">Home</a>
+        <a href="about.html" onclick="setActive(this)">About</a>
+        <a href="gallery.html" onclick="setActive(this)">Gallery</a>
+        <a href="project.html" onclick="setActive(this)">Project</a>
+        <a href="data.html" onclick="setActive(this)">Data</a>
+    </nav>
+
+    <!-- banner -->
+    <div class="banner">
+
+        <div class="mySlides">
+            <img src="./image/banner/banner-1.jpg" alt="Image 1">
+        </div>
+        <div class="mySlides">
+            <img src="./image/banner/ban1.jpg" alt="Image 2" id="img2">
+        </div>
+        <div class="mySlides">
+            <img src="./image/banner/satellite1.png" alt="Image 2" id="img3">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- main -->
+    <main>
+    
+
+    <!-- Services -->
+    <div class="service">
+        <br>
+        <div class="head">
+            <h1>SERVICES</h1>
+            <br>
+            <p>Map’s the first need of the beginning of any project from small construction work to big
+                mining and infrastructure project.
+                A geographic information system (GIS) is a system that creates, manages, analyzes, and maps
+                all types of data. GIS connects data to a map, <br>
+                Following services are used in project... <br>
+                1. Drone Service<br>
+                2. Gis Service <br>
+                3. DSM & STM Service <br>
+                4. 3-D Model <br>
+            </p>
+        </div>
+
+        <div class="end">
+            <div class="box">
+                <div class="campus">
+                    <img src="./image/service/Drone1.jpg" alt="" id="img1">
+                    <div class="layer">
+                        <h3> Drone</h3>
+                    </div>
+                </div>
+                <div class="campus">
+                    <img src="./image/service/drone2.jpg" alt="" id="img1">
+                    <div class="layer">
+                        <h3> Drone</h3>
+                    </div>
+                </div>
+                <div class="campus">
+                    <img src="./image/service/GIS.jpg" alt="" id="img2">
+                    <div class="layer">
+                        <h3>Gis</h3>
+                    </div>
+                </div>
+                <div class="campus">
+                    <img src="./image/service/GIS 1.png " alt="" id="img2">
+                    <div class="layer">
+                        <h3>Gis</h3>
+                    </div>
+                </div>
+                <div class="campus">
+                    <img src="./image/service/DSM.jpg" alt="" id="img3">
+                    <div class="layer">
+                        <h3>DSM & DTM</h3>
+                    </div>
+                </div>
+                <div class="campus">
+                    <img src="./image/service/3-D.png" alt="" id="img4">
+                    <div class="layer">
+                        <h3>3-D Model</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="box_btn">
+            <button id="load-more" onclick="showService()">LOAD MORE</button>
+        </div>
+    
+    </div>
+
+    <!-- Features -->
+    <div class="Features">
+        <br>
+        <h1>FEATURES</h1>
+        <div class="end">
+            <div class="box1">
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/external-others-pike-picture/50/1A1A1A/external-device-gadget-and-device-others-pike-picture-22.png"
+                        alt="external-device-gadget-and-device-others-pike-picture-22" id="img1" />
+                    <h3 id="heading1"> 10x faster Data Acqution</h3>
+                </div>
+
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/wired/64/data-in-both-directions.png" alt="data-in-both-directions"
+                        id="img2" />
+                    <h3 id="heading2"> 5x faster Dilivary</h3>
+                </div>
+
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/ios/50/1A1A1A/accuracy--v1.png" alt="accuracy--v1" id="img3" />
+                    <h3 id="heading3">99 % accurate Measurement</h3>
+                </div>
+
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/glyph-neue/64/conference-call.png" alt="conference-call"
+                        id="img4" />
+                    <h3 id="heading4">Team of Expert</h3>
+                </div>
+
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/external-outline-berkahicon/64/external-drone-linely-palm-industry-outline-berkahicon.png"
+                        alt="external-drone-linely-palm-industry-outline-berkahicon" id="img5" />
+                    <h3 id="heading5">Advances Equipment</h3>
+                </div>
+
+                <div class="innerBox1">
+                    <img src="https://img.icons8.com/external-becris-lineal-becris/64/external-meeting-business-management-becris-lineal-becris.png"
+                        alt="external-meeting-business-management-becris-lineal-becris" id="img6" />
+                    <h3 id="heading6">One to one Support</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="box_btn">
+            <button id="load-more " onclick="showFeatures()">LOAD MORE +</button>
+        </div>
+        <br>
+    </div>
+
+    <!-- steps -->
+    <div class="steps">
+        <h1>STEPS </h1>
+        <br>
+        <div class="inner-div">
+            <div class="inner-img">
+                <img src="./image/steps/Methodology.png" alt="">
+            </div>
+            <div class="inner-step">
+
+                <div class="innerBox2">
+                    <h3 id="heading1"> Step : I</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/clouds/100/google-earth.png" alt="google-earth" id="img1"/>
+                    <br>
+                    <h5> Identification of coastline using google earth.</h5>
+                    <br>
+                    <h5 class="readMore1" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+    
+                <div class="innerBox2">
+                    <h3 id="heading2"> Step : II</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-benchmark-influencer-marketing-flaticons-lineal-color-flat-icons-2.png" alt="external-benchmark-influencer-marketing-flaticons-lineal-color-flat-icons-2"
+                        id="img2" />
+                    <br>
+                    <h5>Establishment of benchmark for drone survey.</h5>
+                    <br>
+                    <h5 class="readMore2" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+    
+                <div class="innerBox2">
+                    <h3 id="heading3">Step : III</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/nolan/64/drone.png" alt="drone" id="img3" />
+                    <br>
+                    <h5>Drone lidar survey.(collect elevation information)</h5>
+                    <br>
+                    <h5 class="readMore3" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+    
+                <div class="innerBox2">
+                    <h3 id="heading4">Step : IV</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/external-output-automation-technology-flaticons-flat-circular-flat-icons.png" alt="external-output-automation-technology-flaticons-flat-circular-flat-icons" id="img4" />
+                    <br>
+                    <h5>Generation of drone survey output.</h5>
+                    <br>
+                    <h5 class="readMore4" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+    
+                <div class="innerBox2">
+                    <h3 id="heading5">Step : V</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/clouds/100/address.png" alt="address" id="img5" />
+                        <br>
+                    <h5>Geo-referencing of the village map.</h5>
+                    <br>
+                    <h5 class="readMore5" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+    
+                <div class="innerBox2">
+                    <h3 id="heading6">Step : VI</h3>
+                    <img width="100" height="100" src="https://img.icons8.com/dusk/64/ms-excel.png" alt="ms-excel" id="img6" />
+                        <br>
+                    <h5>Identification of the coastline(village-wise).</h5>
+                    <br>
+                    <h5 class="readMore6" id="read-more-step" onclick="showStep()">Read More...</h5>
+                </div>
+                
+                    <div class="innerBox2">
+                        <h3 id="heading1">Step : VII</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/plasticine/100/area-chart.png" alt="area-chart" id="img1" />
+                            <br>
+                        <h5> Rectification of the coastline as per the notified area.</h5>
+                        <br>
+                        <h5 class="readMore1" id="read-more-step" onclick="showStep()">Read More...</h5>
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading2"> Step : VIII</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/arcade/64/sea-waves.png" alt="sea-waves" id="img2" />
+                        <br>
+                        <h5>Chainage the entire coastline.</h5>
+                        <br>
+                        <h5 class="readMore2" id="read-more-step" onclick="showStep()">Read More...</h5>    
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading3">Step : IX</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/cute-clipart/64/kilometer-stone.png" alt="kilometer-stone" id="img3" />
+                        <br>
+                        <h5>Physical KM stone marking as per given dimension.</h5>
+                        <br>
+                        <h5 class="readMore3" id="read-more-step" onclick="showStep()">Read More...</h5>   
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading4">Step : X</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/bubbles/100/image.png" alt="image" id="img4" />
+                        <br>
+                        <h5> Super imposition of the historical data collected from a satellite image.</h5>
+                        <br>
+                        <h5 class="readMore4" id="read-more-step" onclick="showStep()">Read More...</h5>
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading5">Step : XI</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/external-outline-berkahicon/64/external-drone-linely-palm-industry-outline-berkahicon.png"
+                            alt="external-drone-linely-palm-industry-outline-berkahicon" id="img5" />
+                            <br>
+                        <h5> Statement of changes against the current situation of the coastline.</h5>
+                        <br>
+                        <h5 class="readMore5" id="read-more-step" onclick="showStep()">Read More...</h5>
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading6">Step :XII</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/stitch/100/road--v1.png" alt="road--v1" id="img6" />
+                            <br>
+                        <h5>Identification of Hazards in the coastal.</h5>
+                        <br>
+                        <h5 class="readMore6" id="read-more-step" onclick="showStep()">Read More...</h5>
+                    </div>
+
+                    <div class="innerBox2">
+                        <h3 id="heading1">Step : XIII</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/external-filled-outline-design-circle/64/external-Webpages-web-design-and-development-filled-outline-design-circle-2.png" 
+                        alt="external-Webpages-web-design-and-development-filled-outline-design-circle-2" id="img1" />
+                            <br>
+                        <h5> Development of a web-based portal for easy access to all stakeholders with mobile app development.</h5>
+                        <br>
+                        <h5 class="readMore1" id="read-more-step" onclick="showStep()">Read More...</h5>
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading2"> Step : XIV</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/external-anggara-flat-anggara-putra/64/external-group-basic-user-interface-anggara-flat-anggara-putra.png"
+                         alt="external-group-basic-user-interface-anggara-flat-anggara-putra" id="img4" />
+                            <br>
+                        <h5> Development of the office infrastructures for staff training the data update.</h5>
+                        <br>
+                        <h5 class="readMore2" id="read-more-step" onclick="showStep()">Read More...</h5>    
+                    </div>
+    
+                    <div class="innerBox2">
+                        <h3 id="heading3">Step : XV</h3>
+                        <img width="100" height="100" src="https://img.icons8.com/plasticine/100/report-card.png" alt="report-card" id="img3" />
+                        <br>
+                        <h5>Making the Proposal and getting CRZ Clearance for Anti Sea Erosion Measures for the State of Maharashtra.</h5>
+                        <br>
+                        <h5 class="readMore3" id="read-more-step" onclick="showStep()">Read More...</h5>   
+                    </div>
+
+            </div> 
+        </div>
+        <br>
+    </div>
+
+    <!-- Govt.Image -->
+    <div class="govt-img">
+        <br>
+        <div class="img-div">
+            <img src="./image/Govt-Img/p1.jpg" alt="" id="clickableImage" onclick="digitalIndia()">
+            <img src="./image/Govt-Img/p2.png" alt="" id="clickableImage" onclick="Mudra()">
+            <img src="./image/Govt-Img/p3.webp" alt="" id="clickableImage" onclick="swatchBharat()">
+            <img src="./image/Govt-Img/p4.png" alt="" id="clickableImage" onclick="skillIndia()">
+            <img src="./image/Govt-Img/p5.jpg" alt="" id="clickableImage" onclick="g2O()">
+            <img src="./image/Govt-Img/p6.jpg" alt="" id="clickableImage" onclick="myGov()">
+            <img src="./image/Govt-Img/p7.png" alt="" id="clickableImage" onclick="aadhar()">
+            <img src="./image/Govt-Img/p8.png" alt="" id="clickableImage" onclick="govtOfIndia()">
+            <img src="./image/Govt-Img/p9.jpg" alt="" id="clickableImage" onclick="lokpal()">
+            <img src="./image/Govt-Img/p10.png" alt="" id="clickableImage" onclick="worldFoodIndia()">
+            <img src="./image/Govt-Img/p11.png" alt="" id="clickableImage" onclick="IndianPost()">
+            <img src="./image/Govt-Img/p12.png" alt="" id="clickableImage" onclick="myGov()">
+        </div>
+    </div>
+    <br>
+
+</main>
+    <footer>
+        <div class="footer-container">
+            <div class="service1">
+                <h3><a href="./service.html">Our Services</a></h3>
+                <ul>
+                    <li><a href="#">Drone Service</a></li>
+                    <li><a href="#">GIS Service</a></li>
+                    <li><a href="#">DSM & DTM Service</a></li>
+                    <li><a href="#">3D-Model Service</a></li>
+                </ul>
+            </div>
+
+            <div class="features">
+                <h3><a href="./features.html">Features</a></h3>
+                <ul>
+                    <li>Advanced Equipment</li>
+                    <li>Team of Expert</li>
+                    <li>99% accuracy</li>
+                    <li>5x faster Dilivary</li>
+                    <li>one to one Support</li>
+                </ul>
+            </div>
+
+            <div class="policies">
+                <h3>Peoples and Policies</h3>
+                <ul>
+                    <li><a href="./disclaimer.html">Disclaimer</a></li>
+                    <!-- <li>Disclaimer</li> -->
+                    <li>Who is Who</li>
+                    <li><a href="./disclaimer.html">Privacy Policy</a></li>
+                    <!-- <li>Privacy Policy</li> -->
+                    <li><a href="https://igod.gov.in/">GOI Web Directory</a></li>
+                    <!-- <li>GOI Web Directory</li> -->
+                </ul>
+            </div>
+
+            <div class="planning">
+                <h3><a href="./planning.html">Planning</a></h3>
+                <ul>
+                    <li><a href="#">Scheduling</a></li>
+                    <li><a href="#">Planning</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-details">
+                <ul>
+                    <h3><a href="./contact.html">Contact Details</a></h3>
+                    <li>
+                        <p>Address: 1st floor,Amrapally Apartment,Paud road,Right Bhusari colony,Kothrud,Pune,
+                            Maharashtra 411038</p>
+                    </li>
+                    <li>
+                        <p>Contact No: +1 123-456-7890</p>
+                    </li>
+                    <li>
+                        <p>Email: AmDatalab@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2023 Maharashtra Coastal | AM Data lab Pvt.Ltd | All rights reserved.
+        </div>
+    </footer>
+
+    </header>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

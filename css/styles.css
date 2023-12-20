@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+marquee{
+    padding: 15px;
+    background-color: aliceblue;
+}
+header {
+    background-color: #f8eeee;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 1em;
+}
+.header{
+height: auto;
+    width: 50%;
+    display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header img{
+   width: 7%;
+}
+.header h1{
+    font-size:xx-large;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #444; */
+    background-color: rgb(247, 247, 247);
+    padding: 1em;
+}
+nav a{
+    /* color: #fff; */
+    color: #333;
+    text-decoration: none;
+}
+nav a.active {
+  color:  #008080; 
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color:  #008080; 
+  text-decoration: overline;
+}
+section {
+    padding: 1em;
+}
+
+/* footer */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Basic styling for the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+  }
+
+  .footer-container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+  }
+
+  /* Styling for the service section */
+  .service1, .features, .policies, .contact-details, .planning {
+    flex: 1;
+    margin-right: 20px;
+    padding: 2%;
+  }
+
+  .service1 h3, .features h3, .contact-details h3, .planning h3 ,.policies h3{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    padding: 2%;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+  }
+.contact-details a {
+    color: #fff;
+    padding: 2%;
+}
+  .service1 ul, .features ul, .planning ul , .policies ul{
+    /* list-style: none; */
+    padding: 0;
+  }
+
+  .service1 li, .features li, .planning li , .policies li{
+    margin-bottom: 5px;
+    padding: 2%;
+  }
+  .contact-details p{
+    padding: 2%;
+  }
+  .service1 a, .features a, .planning a , .policies a{
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+  /* Styling for the contact details section */
+  .contact-details p {
+    margin-bottom: 8px;
+    color: #fff; /* Set text color to white */
+  }
+
+  /* Copyright notice styling */
+  .copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+    text-align: center; /* Center the text */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+    }
+
+    .service, .features, .contact-details, .planning {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+/* mobile view ==============================================================================================================================================================================*/
+@media only screen and (min-width: 200px)and (max-width: 430px) {
+  marquee{
+    padding: 10px;
+    background-color: aliceblue;
+}
+header {
+    background-color: #f8eeee;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 0.8em;
+}
+  .header{
+    height: auto;
+        width: 100%;
+        display: flex;
+        /* background-color: antiquewhite; */
+        justify-content: space-evenly;
+        align-items: center;
+        /* font-size: small; */
+    }
+  .header img{
+    width: 15%;
+ }
+}
+
+
+/* 400 to 500================================================================================================================================================================================= */
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  marquee{
+    padding: 10px;
+    background-color: aliceblue;
+}
+header {
+    background-color: #f8eeee;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 0.8em;
+}
+  .header{
+    height: auto;
+        width: 100%;
+        display: flex;
+        /* background-color: antiquewhite; */
+        justify-content: space-evenly;
+        align-items: center;
+    }
+  .header img{
+    width: 8%;
+ }
+ 
+}
+
+/* Tablet View ==============================================================================================================================================================================*/
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  .header{
+    height: auto;
+        width: 80%;
+        display: flex;
+        /* background-color: antiquewhite; */
+        justify-content: space-evenly;
+        align-items: center;
+    }
+  .header img{
+    width: 8%;
+ }
+
+}
