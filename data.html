@@ -5,16 +5,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coastline Of Maharashtra</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-fullscreen/dist/leaflet.fullscreen.min.css" />
+  <link rel="stylesheet" href="./css/data.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <!-- Add Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-8uVTHlFcFksl62lMz+25ilJ6nNUQSwi1UNsVn0I2/26ihq8iUzZBOpEAT3tP6j3g4P4UjzI01I23skRcLh0esw=="
+    crossorigin="anonymous" />
 </head>
-<link rel="stylesheet" href="./css/data.css" />
-<link rel="stylesheet" href="./css/styles.css" />
 
 <body>
-  <!--MARQUEEE  -->
-  <marquee behavior="" direction="left">
-    <p> Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web based system to search,
-      view and download geo-references digital map & details of villages under in coastline area. </p>
+  <!-- MARQUEE -->
+  <marquee behavior="scroll" direction="left">
+    Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web-based system to search, view, and
+    download geo-referenced digital maps & details of villages in the coastline area.
   </marquee>
+
   <!-- HEADING -->
   <header>
     <div class="header">
@@ -22,6 +32,7 @@
       <h1>Maharashtra Coastline</h1>
     </div>
   </header>
+
   <!-- Navbar -->
   <nav>
     <a href="index.html">Home</a>
@@ -31,81 +42,85 @@
     <a href="data.html">Data</a>
   </nav>
 
-  <main>
-    <h1>DATA</h1>
-  </main>
-
-  <footer>
-    <div class="footer-container">
-      <div class="service1">
-        <h3><a href="./service.html">Our Services</a></h3>
-        <ul>
-          <li><a href="#">Drone Service</a></li>
-          <li><a href="#">GIS Service</a></li>
-          <li><a href="#">DSM & DTM Service</a></li>
-          <li><a href="#">3D-Model Service</a></li>
-        </ul>
+    <!-- Main Content -->
+    <main id="main">
+      <div class="sidebar" onclick="toggleDropdown()">
+        <span style="font-size:30px;cursor:pointer">&#9776;</span>
+        <!-- Add dropdown content here -->
+        <div class="dropdown-content" id="dropdownContent">
+          <a href="#"><i class="fas fa-home"></i><img width="24" height="24" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-Measurement-labor-day-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-Measurement-labor-day-smashingstocks-detailed-outline-smashing-stocks"/></a>
+          <a href="#"><i class="fa-solid fa-database"></i><img width="24" height="24" src="https://img.icons8.com/wired/64/database.png" alt="database"/></a>
+          <a href="#"><i class="fas fa-ruler"></i><img width="24" height="24" src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/external-distance-maps-locations-those-icons-lineal-those-icons-1.png" alt="external-distance-maps-locations-those-icons-lineal-those-icons-1"/></a>
+        </div>
       </div>
+      <div id="map"></div>
+    </main>
 
-      <div class="features">
-        <h3><a href="./features.html">Features</a></h3>
-        <ul>
-          <li>Advanced Equipment</li>
-          <li>Team of Expert</li>
-          <li>99% accuracy</li>
-          <li>5x faster Dilivary</li>
-          <li>one to one Support</li>
-        </ul>
+    <footer>
+      <div class="footer-container">
+        <div class="service1">
+          <h3><a href="./service.html">Our Services</a></h3>
+          <ul>
+            <li><a href="#">Drone Service</a></li>
+            <li><a href="#">GIS Service</a></li>
+            <li><a href="#">DSM & DTM Service</a></li>
+            <li><a href="#">3D-Model Service</a></li>
+          </ul>
+        </div>
+    
+        <div class="features">
+          <h3><a href="./features.html">Features</a></h3>
+          <ul>
+            <li>Advanced Equipment</li>
+            <li>Team of Expert</li>
+            <li>99% accuracy</li>
+            <li>5x faster Dilivary</li>
+            <li>one to one Support</li>
+          </ul>
+        </div>
+    
+        <div class="policies">
+          <h3>Peoples and Policies</h3>
+          <ul>
+              <li><a href="./disclaimer.html">Disclaimer</a></li>
+              <!-- <li>Disclaimer</li> -->
+              <li>Who is Who</li>
+              <li><a href="./disclaimer.html">Privacy Policy</a></li>
+              <!-- <li>Privacy Policy</li> -->
+              <li><a href="https://igod.gov.in/">GOI Web Directory</a></li>
+              <!-- <li>GOI Web Directory</li> -->
+          </ul>
       </div>
-
-      <div class="policies">
-        <h3>Peoples and Policies</h3>
-        <ul>
-            <li><a href="./disclaimer.html">Disclaimer</a></li>
-            <!-- <li>Disclaimer</li> -->
-            <li>Who is Who</li>
-            <li><a href="./disclaimer.html">Privacy Policy</a></li>
-            <!-- <li>Privacy Policy</li> -->
-            <li><a href="https://igod.gov.in/">GOI Web Directory</a></li>
-            <!-- <li>GOI Web Directory</li> -->
-        </ul>
-    </div>
-
-      <div class="planning">
-        <h3><a href="./planning.html">Planning</a></h3>
-        <ul>
-          <li><a href="#">Scheduling</a></li>
-          <li><a href="#">Planning</a></li>
-        </ul>
+      
+        <div class="planning">
+          <h3><a href="./planning.html">Planning</a></h3>
+          <ul>
+            <li><a href="#">Scheduling</a></li>
+            <li><a href="#">Planning</a></li>
+          </ul>
+        </div>
+    
+        <div class="contact-details">
+          <ul>
+          <h3><a href="./contact.html">Contact Details</a></h3>
+          <li><p>Address: 1st floor,Amrapally Apartment,Paud road,Right Bhusari colony,Kothrud,Pune, Maharashtra 411038</p></li>
+          <li> <p>Contact No: +1 123-456-7890</p></li>
+          <li><p>Email: AmDatalab@gmail.com</p></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="contact-details">
-        <h3><a href="./contact.html">Contact Details</a></h3>
-        <ul>
-          <li>
-            <p>Address: 1st floor,Amrapally Apartment,Paud road,Right Bhusari colony,Kothrud,Pune, Maharashtra 411038
-            </p>
-          </li>
-          <li>
-            <p>Contact No: +1 123-456-7890</p>
-          </li>
-          <li>
-            <p>Email: AmDatalab@gmail.com</p>
-          </li>
-        </ul>
+    
+      <div class="copyright">
+        &copy; 2023 Maharashtra Coastal | AM Data lab Pvt.Ltd | All rights reserved.
       </div>
-    </div>
+ </footer>
 
-    <div class="copyright">
-      &copy; 2023 Maharashtra Coastal | AM Data lab Pvt.Ltd | All rights reserved.
-    </div>
-  </footer>
-  <!-- Java Script -->
-  <script src="./js/index.js"></script>
-  <br />
-  <br />
-  </header>
-  <script src="./js/index.js"></script>
+   <!-- Your scripts go here -->
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+ <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+ <script src="https://unpkg.com/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js"></script>
+  <script src="./js/data.js"></script>
 </body>
 
 </html>
