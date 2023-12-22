@@ -43,18 +43,29 @@
   </nav>
 
     <!-- Main Content -->
-    <main id="main">
-      <div class="sidebar" onclick="toggleDropdown()">
-        <span style="font-size:30px;cursor:pointer">&#9776;</span>
-        <!-- Add dropdown content here -->
-        <div class="dropdown-content" id="dropdownContent">
-          <a href="#"><i class="fas fa-home"></i><img width="24" height="24" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-Measurement-labor-day-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-Measurement-labor-day-smashingstocks-detailed-outline-smashing-stocks"/></a>
-          <a href="#"><i class="fa-solid fa-database"></i><img width="24" height="24" src="https://img.icons8.com/wired/64/database.png" alt="database"/></a>
-          <a href="#"><i class="fas fa-ruler"></i><img width="24" height="24" src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/external-distance-maps-locations-those-icons-lineal-those-icons-1.png" alt="external-distance-maps-locations-those-icons-lineal-those-icons-1"/></a>
+    <!-- <main id="main"> -->
+      <div id="content-container">
+        <div class="sidebar" onclick="toggleDropdown()">
+            <span style="font-size:30px;">&#9776;</span>
+            <!-- Add dropdown content here -->
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="#"><img width="24" height="24"
+                        src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-Measurement-labor-day-smashingstocks-detailed-outline-smashing-stocks.png"
+                        alt="home"></a>
+                <a href="#"><img width="24" height="24"
+                        src="https://img.icons8.com/wired/64/database.png" alt="database"></a>
+                <a href="#"><img width="24" height="24"
+                        src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/external-distance-maps-locations-those-icons-lineal-those-icons-1.png"
+                        alt="ruler"></a>
+            </div>
         </div>
-      </div>
-      <div id="map"></div>
-    </main>
+
+        <!-- Google Earth GIF or other content goes here -->
+        <img src="./video/google earth.gif" alt="Google Earth GIF" id="earthGif">
+
+        <div id="map-container" style="display:none;"></div>
+        </div>
+    <!-- </main> -->
 
     <footer>
       <div class="footer-container">
@@ -115,11 +126,13 @@
       </div>
  </footer>
 
-   <!-- Your scripts go here -->
-   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
- <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
- <script src="https://unpkg.com/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js"></script>
+<!-- External Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js"></script>
+
   <script src="./js/data.js"></script>
 </body>
 
