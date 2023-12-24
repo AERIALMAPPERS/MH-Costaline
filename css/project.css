@@ -15,12 +15,14 @@ main {
     /* height: auto; */
     border: 1px solid black;
     background-color: rgb(234, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .map-main {
     width: 70%;
-    /* height: 85vh; */
-    /* height: auto; */
     /* background-color: #944c4c; */
     display: flex;
     margin-bottom: 2%;
@@ -28,17 +30,22 @@ main {
 
 #map {
     width: 45%;
-    height: 75vh;
+    /* height: 75vh; */
+    height: 95%;
     margin-top: 35px;
     margin-left: 40px;
     align-items: center;
     /* display: flex; */
     border: 2px solid black;
 }
+#map iframe{
+    height: 100%;
+    width: 100%;
+}
 
 #pdfDiv {
     width: 45%;
-    height: 75vh;
+    height: 95%;
     margin-top: 35px;
     margin-left: 40px;
     align-items: center;
@@ -55,7 +62,7 @@ main {
     margin-top: 10px;
     align-items: center;
     border: 1px solid black;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     background-color: rgb(184, 183, 183);
 }
 
@@ -68,7 +75,7 @@ main {
     border-radius: 30px;
     align-items: center;
     border: 1px solid black;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     background-color: rgb(184, 183, 183);
 }
 
@@ -199,27 +206,26 @@ form select {
 
     #maplist {
         width: 100%;
-        height: 40vh;
+        /* height: 40vh; */
         border: 1px solid black;
         background-color: rgb(234, 235, 235);
     }
 
     #maplist h2 {
         font-size: 1rem;
-        margin-left: 15px;
-        margin-top: 20px;
     }
 
     .map-main {
         width: 100%;
-        height: 55vh;
+        /* height: 55vh; */
+        height: 100%;
         /* background-color: #944c4c; */
         display: inline-block;
     }
 
     #map {
         width: 100%;
-        height: 25vh;
+        /* height: 200%; */
         margin-top: 15px;
         margin-left: 0px;
         align-items: center;
@@ -229,7 +235,8 @@ form select {
 
     #map iframe {
         width: 100%;
-        height: 24.6vh;
+        /* height: 100%; */
+        /* height: 24.6vh; */
         /* background-color:blueviolet; */
     }
 
@@ -239,11 +246,11 @@ form select {
         align-items: center;
         flex-direction: column;
         gap: 8px;
-        margin-top: -20px;
+        /* margin-top: -20px; */
     }
 
     form select {
-        width: 40%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
@@ -254,12 +261,12 @@ form select {
     }
 
     #citySelect {
-        width: 40%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
         outline: none;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         font-size: 0.8rem;
         cursor: pointer;
     }
@@ -281,31 +288,25 @@ form select {
     }
 
     #dwg {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        text-align: center;
-        align-items: center;
         height: 20px;
         color: black;
         width: 40%;
         border-radius: 30px;
         border: 1px solid black;
         font-size: 0.8rem;
-        margin-left: 85px;
+        /* margin-left: 85px; */
         background-color: rgb(184, 183, 183);
     }
 
     #pdfDiv {
         width: 100%;
-        height: 25vh;
         margin-top: 15px;
         margin-left: 0px;
-        align-items: center;
         border: 2px solid black;
     }
 
     #ecw {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         text-align: center;
         height: 20px;
         color: black;
@@ -314,7 +315,7 @@ form select {
         align-items: center;
         border: 1px solid black;
         font-size: 0.8rem;
-        margin-left: 85px;
+        /* margin-left: 85px; */
         background-color: rgb(184, 183, 183);
     }
 }
@@ -325,35 +326,32 @@ form select {
     
     main {
         width: 100%;
-        /* height: 85vh; */
         height: auto;
         color: white;
         display: inline-block;
     }
 
     #maplist {
-        width: 100%;
-        height: 40vh;
+        width: 95%;
         border: 1px solid black;
+        text-align: center;
         background-color: rgb(234, 235, 235);
     }
 
     #maplist h2 {
         font-size: 1.2rem;
-        margin-left: 35px;
+        /* margin-left: 35px; */
         margin-top: 20px;
     }
 
     .map-main {
         width: 100%;
-        height: 55vh;
         /* background-color: #944c4c; */
         display: inline-block;
     }
 
     #map {
         width: 100%;
-        height: 25vh;
         margin-top: 15px;
         margin-left: 0px;
         align-items: center;
@@ -363,7 +361,6 @@ form select {
 
     #map iframe {
         width: 100%;
-        height: 24.6vh;
         /* background-color:blueviolet; */
     }
 
@@ -377,7 +374,7 @@ form select {
     }
 
     form select {
-        width: 50%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
@@ -388,7 +385,7 @@ form select {
     }
 
     #citySelect {
-        width: 50%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
@@ -398,40 +395,22 @@ form select {
         cursor: pointer;
     }
 
-    #btnsubmit {
-        background-color: dodgerblue;
-        color: white;
-        height: 18px;
-        width: 80px;
-        border-radius: 5px;
-    }
-
-    #btnbutton {
-        background-color: rgb(3, 94, 97);
-        color: white;
-        height: 18px;
-        width: 80px;
-        border-radius: 5px;
-    }
 
     #dwg {
-        margin-top: 10px;
         margin-bottom: 30px;
         text-align: center;
         align-items: center;
         height: 20px;
         color: black;
-        width: 50%;
+        width:80%;
         border-radius: 30px;
         border: 1px solid black;
         font-size: 0.8rem;
-        margin-left: 60px;
         background-color: rgb(184, 183, 183);
     }
 
     #pdfDiv {
         width: 100%;
-        height: 25vh;
         margin-top: 15px;
         margin-left: 0px;
         align-items: center;
@@ -439,16 +418,14 @@ form select {
     }
 
     #ecw {
-        margin-top: 10px;
         text-align: center;
         height: 20px;
         color: black;
-        width: 50%;
+        width: 80%;
         border-radius: 30px;
         align-items: center;
         border: 1px solid black;
         font-size: 0.8rem;
-        margin-left: 60px;
         background-color: rgb(184, 183, 183);
     }
        
@@ -458,77 +435,19 @@ form select {
 @media only screen and (min-width: 400px) and (max-width: 500px) {
     main {
         width: 100%;
-        /* height: 85vh; */
         height: auto;
         color: white;
         display: inline-block;
     }
 
     #maplist {
-        width: 100%;
-        height: 40vh;
-        border: 1px solid black;
+        width: 95%;
         background-color: rgb(234, 235, 235);
     }
 
     #maplist h2 {
         font-size: 1.2rem;
         text-align: center;
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-
-    .map-main {
-        width: 100%;
-        height: 95vh;
-        /* background-color: #944c4c; */
-        display: inline-block;
-    }
-
-    #map {
-        width: 100%;
-        height: 45vh;
-        margin-top: 15px;
-        margin-left: 0px;
-        align-items: center;
-        /* background-color: #d65a5a; */
-        border: 2px solid black;
-    }
-
-    #map iframe {
-        width: 100%;
-        height: 44.6vh;
-        /* background-color:blueviolet; */
-    }
-
-    #dwg {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        margin-left: 120px;
-        height: 20px;
-        width: 40%;
-        border-radius: 30px;
-        border: 1px solid black;
-        background-color: rgb(184, 183, 183);
-    }
-
-    #pdfDiv {
-        width: 100%;
-        height: 45vh;
-        margin-top: 15px;
-        margin-left: 0px;
-        align-items: center;
-        border: 2px solid black;
-    }
-
-    #ecw {
-        margin-top: 10px;
-        margin-left: 120px;
-        height: 20px;
-        width: 40%;
-        border-radius: 30px;
-        border: 1px solid black;
-        background-color: rgb(184, 183, 183);
     }
 
 }
@@ -539,22 +458,18 @@ form select {
 
     main {
         width: 100%;
-        /* height: 85vh; */
-        height: auto;
-        color: white;
+      color: white;
         display: inline-block;
     }
 
     .map-main {
         width: 100%;
-        height: 95vh;
         /* background-color: #944c4c; */
         display: inline-block;
     }
 
     #maplist {
-        width: 100%;
-        height: 40vh;
+        width: 95%;
         border: 1px solid black;
         background-color: rgb(234, 235, 235);
     }
@@ -562,14 +477,11 @@ form select {
     #maplist h2 {
         font-size: 1.2rem;
         text-align: center;
-        margin-left: 15px;
         margin-top: 20px;
     }
 
     #map {
         width: 100%;
-        height: 45vh;
-        margin-top: 15px;
         margin-left: 0px;
         align-items: center;
         /* background-color: #d65a5a; */
@@ -578,7 +490,7 @@ form select {
 
     #map iframe {
         width: 100%;
-        height: 44.6vh;
+        /* height: 44.6vh; */
         /* background-color:blueviolet; */
     }
 
@@ -588,11 +500,11 @@ form select {
         align-items: center;
         flex-direction: column;
         gap: 8px;
-        margin-top: -20px;
+        /* margin-top: -20px; */
     }
 
     form select {
-        width: 40%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
@@ -603,7 +515,7 @@ form select {
     }
 
     #citySelect {
-        width: 40%;
+        width: 100%;
         padding: 4px;
         background-color: #fff;
         border-radius: 10px;
@@ -612,58 +524,21 @@ form select {
         font-size: 0.8rem;
         cursor: pointer;
     }
-
-    #btnsubmit {
-        background-color: dodgerblue;
-        color: white;
-        height: 18px;
-        width: 80px;
-        border-radius: 5px;
-    }
-
-    #btnbutton {
-        background-color: rgb(3, 94, 97);
-        color: white;
-        height: 18px;
-        width: 80px;
-        border-radius: 5px;
-    }
-
     #dwg {
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 30px;   
         text-align: center;
-        align-items: center;
-        height: 20px;
-        color: black;
-        width: 40%;
-        border-radius: 30px;
-        border: 1px solid black;
+        align-items: center;      
+        width: 30%; 
         font-size: 0.8rem;
-        /* margin-left: 85px; */
-        background-color: rgb(184, 183, 183);
     }
 
     #pdfDiv {
         width: 100%;
-        height: 45vh;
-        margin-top: 15px;
         margin-left: 0px;
-        align-items: center;
-        border: 2px solid black;
     }
     #ecw {
-        margin-top: 10px;
-        text-align: center;
-        align-items: center;
-        height: 20px;
-        color: black;
-        width: 40%;
-        border-radius: 30px;
-        border: 1px solid black;
+        width: 30%;
         font-size: 0.8rem;
-        /* margin-left: 85px; */
-        background-color: rgb(184, 183, 183);
     }
    
 }
@@ -673,17 +548,13 @@ form select {
 
     #maplist {
         width: 70%;
-        height: 85vh;
-        /* height: auto; */
         border: 1px solid black;
         background-color: rgb(234, 235, 235);
     }
 
     #maplist h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-align: center;
-        margin-left: 15px;
-        margin-top: 20px;
     }
 
     .map-main {
@@ -696,7 +567,6 @@ form select {
     #map {
         width: 100%;
         height: 40vh;
-        margin-top: 15px;
         margin-left: 0px;
         align-items: center;
         /* background-color: #d65a5a; */
@@ -706,25 +576,18 @@ form select {
 
     #map iframe {
         width: 100%;
-        height: 40vh;
+        height: 39.6vh;
         /* background-color:blueviolet; */
     }
 
     #dwg {
-        margin-top: 10px;
         margin-bottom: 30px;
-        margin-left: 60px;
-        height: 20px;
         width: 60%;
-        border-radius: 30px;
-        border: 1px solid black;
-        background-color: rgb(184, 183, 183);
     }
 
     #pdfDiv {
         width: 100%;
         height: 40vh;
-        margin-top: 15px;
         margin-left: 0px;
         align-items: center;
         display: flex;
@@ -732,13 +595,7 @@ form select {
     }
 
     #ecw {
-        margin-top: 10px;
-        margin-left: 60px;
-        height: 20px;
-        width: 60%;
-        border-radius: 30px;
-        border: 1px solid black;
-        background-color: rgb(184, 183, 183);
+        width: 50%;
     }
 
     form {
@@ -746,47 +603,17 @@ form select {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 8px;
-        margin-top: -10px;
     }
 
     form select {
-        width: 60%;
-        padding: 5px;
-        background-color: #fff;
-        border-radius: 10px;
-        outline: none;
-        font-size: 0.9rem;
-        box-shadow: 0, 5px, 10px, 0 rgb(0, 0, 0, 30);
-        cursor: pointer;
+        width: 100%;
     }
 
     #citySelect {
-        width: 60%;
-        padding: 5px;
-        background-color: #fff;
-        border-radius: 10px;
-        outline: none;
-        margin-top: 10px;
-        font-size: 0.8rem;
-        cursor: pointer;
+        width: 100%; 
     }
 
-    #btnsubmit {
-        background-color: dodgerblue;
-        color: white;
-        height: 20px;
-        width: 100px;
-        border-radius: 5px;
-    }
-
-    #btnbutton {
-        background-color: rgb(3, 94, 97);
-        color: white;
-        height: 20px;
-        width: 100px;
-        border-radius: 5px;
-    }
+   
 }
 
 /* 950 to 1100   ======================================================================================================================================================================== */
@@ -795,15 +622,12 @@ form select {
    
     main {
         width: 100%;
-        height: auto;
-        /* height: 85vh; */
         color: white;
         display: fles;
     }
 
     #maplist {
         width: 50%;
-        height: 85vh;
         border: 1px solid black;
         background-color: rgb(234, 235, 235);
     }
@@ -811,8 +635,6 @@ form select {
     #maplist h2 {
         font-size: 1.2rem;
         text-align: center;
-        margin-left: 15px;
-        margin-top: 20px;
     }
 
     .map-main {
@@ -840,9 +662,7 @@ form select {
     }
 
     #dwg {
-        margin-top: 10px;
         margin-bottom: 30px;
-        margin-left: 65px;
         height: 25px;
         width: 60%;
         border-radius: 30px;
@@ -862,7 +682,6 @@ form select {
 
     #ecw {
         margin-top: 10px;
-        margin-left: 65px;
         height: 25px;
         width: 60%;
         border-radius: 30px;
@@ -876,11 +695,11 @@ form select {
         align-items: center;
         flex-direction: column;
         gap: 8px;
-        margin-top: -10px;
+        /* margin-top: -10px; */
     }
 
     form select {
-        width: 60%;
+        width: 100%;
         padding: 5px;
         background-color: #fff;
         border-radius: 10px;
@@ -891,7 +710,7 @@ form select {
     }
 
     #citySelect {
-        width: 60%;
+        width: 100%;
         padding: 5px;
         background-color: #fff;
         border-radius: 10px;
@@ -901,21 +720,7 @@ form select {
         cursor: pointer;
     }
 
-    #btnsubmit {
-        background-color: dodgerblue;
-        color: white;
-        height: 20px;
-        width: 100px;
-        border-radius: 5px;
-    }
-
-    #btnbutton {
-        background-color: rgb(3, 94, 97);
-        color: white;
-        height: 20px;
-        width: 100px;
-        border-radius: 5px;
-    }
+   
 }
 
 /* laptop view  ========================================================================================================================================================================== */
@@ -923,7 +728,6 @@ form select {
 
     main {
         width: 100%;
-        /* height: 85vh; */
         height: auto;
         color: white;
         display: flex;
@@ -932,7 +736,6 @@ form select {
 
     #maplist {
         width: 50%;
-        height: 85vh;
         border: 1px solid black;
         background-color: rgb(234, 235, 235);
     }
@@ -940,8 +743,6 @@ form select {
     #maplist h2 {
         font-size: 1.5rem;
         text-align: center;
-        margin-left: 15px;
-        margin-top: 25px;
     }
 
     .map-main {
@@ -954,7 +755,6 @@ form select {
     #map {
         width: 100%;
         height: 40vh;
-        margin-top: 5px;
         margin-left: 0px;
         align-items: center;
         /* background-color: #d65a5a; */
@@ -970,7 +770,6 @@ form select {
     #pdfDiv {
         width: 100%;
         height: 44vh;
-        margin-top: 5px;
         margin-left: 0px;
         align-items: center;
         border: 1px solid black;
@@ -982,50 +781,21 @@ form select {
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        margin-top: -20px;
     }
 
     form select {
-        width: 60%;
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 10px;
-        outline: none;
+        width: 100%;
+       padding: 10px;
         font-size: 1rem;
-        box-shadow: 0, 5px, 10px, 0 rgb(0, 0, 0, 30);
-        cursor: pointer;
     }
 
     #citySelect {
-        width: 40%;
-        padding: 4px;
-        background-color: #fff;
-        border-radius: 10px;
-        outline: none;
-        margin-top: 10px;
+        width: 100%;
+       padding: 10px;
         font-size: 1rem;
-        cursor: pointer;
-    }
-
-    #btnsubmit {
-        background-color: dodgerblue;
-        color: white;
-        /* padding: 5px; */
-        height: 25px;
-        width: 80px;
-        border-radius: 5px;
-    }
-
-    #btnbutton {
-        background-color: rgb(3, 94, 97);
-        color: white;
-        height: 25px;
-        width: 80px;
-        border-radius: 5px;
     }
 
     #dwg {
-        margin-top: 10px;
         margin-bottom: 30px;
         text-align: center;
         align-items: center;
@@ -1033,23 +803,13 @@ form select {
         color: black;
         width: 60%;
         border-radius: 30px;
-        border: 1px solid black;
         font-size: 1rem;
-        margin-left: 70px;
-        background-color: rgb(184, 183, 183);
     }
 
     #ecw {
-        margin-top: 10px;
-        text-align: center;
-        align-items: center;
         height: 30px;
-        color: black;
         width: 60%;
         border-radius: 30px;
-        border: 1px solid black;
         font-size: 0.8rem;
-        margin-left: 70px;
-        background-color: rgb(184, 183, 183);
     }
 }
