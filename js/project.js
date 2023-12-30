@@ -2055,32 +2055,47 @@ document.addEventListener("DOMContentLoaded", function () {
     const data1 = {
         "Palghar": {
             "ecwLink": {
-                "Dahanu Ecw": "./ECW/Palghar Ecw/Dhanu.gmw",
-                "Palghar Ecw": "./ECW/Palghar Ecw/Palghar.gmw",
-                "Talasari Ecw": "./ECW/Palghar Ecw/Talasari.gmw",
-                "Vasai Ecw": "./ECW/Palghar Ecw/Vasai.gmw",
+                "Dahanu Ecw": "./ECW/ECW-Link/Palghar Ecw/Dhanu.gmw",
+                "Palghar Ecw": "./ECW/ECW-Link/Palghar Ecw/Palghar.gmw",
+                "Talasari Ecw": "./ECW/ECW-Link/Palghar Ecw/Talasari.gmw",
+                "Vasai Ecw": "./ECW/ECW-Link/Palghar Ecw/Vasai.gmw",
             },
             "ecwPdf": {
-                "Dahanu Pdf": "./ECW Pdf/Palghar/Dhanu.pdf",
-                "Palghar Pdf": "./ECW Pdf/Palghar/Palghar.pdf",
-                "Talasari Pdf": "./ECW Pdf/Palghar/Talasari.pdf",
-                "Vasai Pdf": "./ECW Pdf/Palghar/Vasai.pdf",
+                "Dahanu Pdf": "./ECW/ECW Pdf/Palghar/Dhanu.pdf",
+                "Palghar Pdf": "./ECW/ECW Pdf/Palghar/Palghar.pdf",
+                "Talasari Pdf": "./ECW/ECW Pdf/Palghar/Talasari.pdf",
+                "Vasai Pdf": "./ECW/ECW Pdf/Palghar/Vasai.pdf",
             },
-            "CRZ": {
-                "CRZ-1": "./CRZ/PALGHAR/82.pdf ",
-                "CRZ-2": "./CRZ/PALGHAR/83.pdf",
-                "CRZ-3": "./CRZ/PALGHAR/86.pdf",
-                "CRZ-4": "./CRZ/PALGHAR/87.pdf",
-                "CRZ-5": "./CRZ/PALGHAR/89.pdf",
-                "CRZ-6": "./CRZ/PALGHAR/90.pdf",
-                "CRZ-7": "./CRZ/PALGHAR/92.pdf",
-                "CRZ-8": "./CRZ/PALGHAR/93.pdf",
-                "CRZ-9": "./CRZ/PALGHAR/94.pdf",
-                "CRZ-10": "./CRZ/PALGHAR/98.pdf",
-                "CRZ-11": "./CRZ/PALGHAR/99.pdf",
-                "CRZ-12": "./CRZ/PALGHAR/100.pdf",
-                "CRZ-13": "./CRZ/PALGHAR/101.pdf"
-            }
+            "CRZPdf": {
+                "CRZ-1": "./CRZ/CRZ-Pdf/PALGHAR/82.pdf",
+                "CRZ-2": "./CRZ/CRZ-Pdf/PALGHAR/83.pdf",
+                "CRZ-3": "./CRZ/CRZ-Pdf/PALGHAR/86.pdf",
+                "CRZ-4": "./CRZ/CRZ-Pdf/PALGHAR/87.pdf",
+                "CRZ-5": "./CRZ/CRZ-Pdf/PALGHAR/89.pdf",
+                "CRZ-6": "./CRZ/CRZ-Pdf/PALGHAR/90.pdf",
+                "CRZ-7": "./CRZ/CRZ-Pdf/PALGHAR/92.pdf",
+                "CRZ-8": "./CRZ/CRZ-Pdf/PALGHAR/93.pdf",
+                "CRZ-9": "./CRZ/CRZ-Pdf/PALGHAR/94.pdf",
+                "CRZ-10": "./CRZ/CRZ-Pdf/PALGHAR/98.pdf",
+                "CRZ-11": "./CRZ/CRZ-Pdf/PALGHAR/99.pdf",
+                "CRZ-12": "./CRZ/CRZ-Pdf/PALGHAR/100.pdf",
+                "CRZ-13": "./CRZ/CRZ-Pdf/PALGHAR/101.pdf"
+            },
+            "CRZLink": {
+                "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-6": "./CRZ/PALGHAR/90.pdf",
+                // "CRZ-7": "./CRZ/PALGHAR/92.pdf",
+                // "CRZ-8": "./CRZ/PALGHAR/93.pdf",
+                // "CRZ-9": "./CRZ/PALGHAR/94.pdf",
+                // "CRZ-10": "./CRZ/PALGHAR/98.pdf",
+                // "CRZ-11": "./CRZ/PALGHAR/99.pdf",
+                // "CRZ-12": "./CRZ/PALGHAR/100.pdf",
+                // "CRZ-13": "./CRZ/PALGHAR/101.pdf"
+            },
         },
         "Thane": {
             "ecwLink": {
@@ -2093,7 +2108,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "PDF-3": "./Ecw Pdf/Palghar/pdf1_compressed.pdf",
                 // "PDF-4": "./Ecw Pdf/Palghar/pdf2_compressed.pdf",
             },
-            "CRZ": {
+            "CRZPdf": {
                 "CRZ-1": "./CRZ/THANE/4.pdf",
                 "CRZ-2": "./CRZ/THANE/5.pdf",
                 "CRZ-3": "./CRZ/THANE/6.pdf",
@@ -2104,7 +2119,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-8": "./CRZ/THANE/11.pdf",
                 "CRZ-9": "./CRZ/THANE/12.pdf",
                 "CRZ-10": "./CRZ/THANE/76.pdf",
-            }
+            },
+            "CRZLink": {
+                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+            },
         },
         "Mumbai City & Suburban": {
             "ecwLink": {
@@ -2117,14 +2139,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "PDF-3": "./Ecw Pdf/Palghar/pdf1_compressed.pdf",
                 // "PDF-4": "./Ecw Pdf/Palghar/pdf2_compressed.pdf",
             },
-            "CRZ": {
+            "CRZPdf": {
                 "CRZ-(City-1)": "./CRZ/MUMBAI CITY & SUBURBAN/City/1.pdf",
                 "CRZ-(City-2)": "./CRZ/MUMBAI CITY & SUBURBAN/City/2.pdf",
                 "CRZ-(City-3)": "./CRZ/MUMBAI CITY & SUBURBAN/City/3.pdf",
                 "CRZ-(City-4)": "./CRZ/MUMBAI CITY & SUBURBAN/City/4.pdf",
                 "CRZ-(Suburban-1)": "./CRZ/MUMBAI CITY & SUBURBAN/Suburban/1.pdf",
                 "CRZ-(Suburban-2)": "./CRZ/MUMBAI CITY & SUBURBAN/Suburban/2.pdf",
-            }
+            },
+            "CRZLink": {
+                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+            },
         },
         "Raigad": {
             "ecwLink": {
@@ -2137,7 +2166,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "PDF-3": "./Ecw Pdf/Palghar/pdf3_compressed.pdf",
                 // "PDF-4": "./Ecw Pdf/Palghar/pdf4_compressed.pdf",
             },
-            "CRZ": {
+            "CRZPdf": {
                 "CRZ-1": "./CRZ/RAIGAD/47.pdf",
                 "CRZ-2": "./CRZ/RAIGAD/48.pdf",
                 "CRZ-3": "./CRZ/RAIGAD/49.pdf",
@@ -2157,6 +2186,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-17": "./CRZ/RAIGAD/69.pdf",
                 "CRZ-18": "./CRZ/RAIGAD/73.pdf",
                 "CRZ-19": "./CRZ/RAIGAD/77.pdf",
+            },
+            "CRZLink": {
+                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
             }
         },
         "Ratnagiri": {
@@ -2170,7 +2206,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "PDF-3": "./Ecw Pdf/Palghar/pdf1_compressed.pdf",
                 // "PDF-4": "./Ecw Pdf/Palghar/pdf2_compressed.pdf",
             },
-            "CRZ": {
+            "CRZPdf": {
                 "CRZ-1": "./CRZ/RATNAGIRI/16.pdf",
                 "CRZ-2": "./CRZ/RATNAGIRI/18.pdf",
                 "CRZ-3": "./CRZ/RATNAGIRI/19.pdf",
@@ -2195,6 +2231,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-22": "./CRZ/RATNAGIRI/46.pdf",
                 "CRZ-23": "./CRZ/RATNAGIRI/47.pdf",
                 "CRZ-24": "./CRZ/RATNAGIRI/48.pdf",
+            },
+            "CRZLink": {
+                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
             }
         },
         "Sindhudurg": {
@@ -2208,7 +2251,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "PDF-3": "./Ecw Pdf/Palghar/pdf1_compressed.pdf",
                 // "PDF-4": "./Ecw Pdf/Palghar/pdf2_compressed.pdf",
             },
-            "CRZ": {
+            "CRZPdf": {
                 "CRZ-1": "./CRZ/SINDHUDURG/1.pdf",
                 "CRZ-2": "./CRZ/SINDHUDURG/2.pdf",
                 "CRZ-3": "./CRZ/SINDHUDURG/3.pdf",
@@ -2226,7 +2269,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-15": "./CRZ/SINDHUDURG/16.pdf",
                 "CRZ-16": "./CRZ/SINDHUDURG/18.pdf",
                 "CRZ-17": "./CRZ/SINDHUDURG/19.pdf",
-            }
+            },
+            "CRZLink": {
+                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+            },
         },
     };
 
@@ -2236,6 +2286,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const ecwPdfDiv = document.getElementById('pdfDiv');
     const ecwDiv = document.getElementById('ecw');
     const crzDiv = document.getElementById('pdfDiv')
+    const crzLinkDiv = document.getElementById('ecw');
 
     // Populate district dropdown
     for (let district1 in data1) {
@@ -2312,7 +2363,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         ecwPdfDiv.innerHTML = "";
                     }
                 }
-                else if (selectedCategory === "CRZ") {
+                else if (selectedCategory === "CRZPdf") {
                     const CRZUrl = ecwData;
 
                     if (CRZUrl) {
@@ -2322,6 +2373,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else {
                         // Handle the case where the PDF URL is not defined
                         crzDiv.innerHTML = "PDF not available for this village.";
+                    }
+                }
+                else if (selectedCategory === "CRZLink") {
+                    const CRZLinkUrl = ecwData;
+
+                    if (CRZLinkUrl) {
+                        // Display the link in the 'ecw' div
+                        crzLinkDiv.innerHTML = `<a href="${CRZLinkUrl}" download>Download CRZ Link</a>`;
+                        ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
+                    } else {
+                        // Handle the case where the ECW URL is not defined
+                        crzLinkDiv.innerHTML = "ECW file not available for this village.";
+                        ecwPdfDiv.innerHTML = "";
                     }
                 }
             }
