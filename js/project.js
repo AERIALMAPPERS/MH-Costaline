@@ -2076,10 +2076,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-7": "./CRZ/CRZ-Pdf/PALGHAR/92.pdf",
                 "CRZ-8": "./CRZ/CRZ-Pdf/PALGHAR/93.pdf",
                 "CRZ-9": "./CRZ/CRZ-Pdf/PALGHAR/94.pdf",
-                "CRZ-10": "./CRZ/CRZ-Pdf/PALGHAR/98.pdf",
-                "CRZ-11": "./CRZ/CRZ-Pdf/PALGHAR/99.pdf",
-                "CRZ-12": "./CRZ/CRZ-Pdf/PALGHAR/100.pdf",
-                "CRZ-13": "./CRZ/CRZ-Pdf/PALGHAR/101.pdf"
+                "CRZ-10": "./CRZ/CRZ-Pdf/PALGHAR/95.pdf",
+                "CRZ-11": "./CRZ/CRZ-Pdf/PALGHAR/97.pdf",
+                "CRZ-12": "./CRZ/CRZ-Pdf/PALGHAR/98.pdf",
+                "CRZ-13": "./CRZ/CRZ-Pdf/PALGHAR/99.pdf",
+                "CRZ-14": "./CRZ/CRZ-Pdf/PALGHAR/100.pdf",
+                "CRZ-15": "./CRZ/CRZ-Pdf/PALGHAR/101.pdf"
             },
             "CRZLink": {
                 "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
