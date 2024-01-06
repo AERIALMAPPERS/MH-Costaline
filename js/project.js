@@ -562,7 +562,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 "Chanje (CT)": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.601114254944!2d72.94722017596202!3d18.86039575870419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d97ff21418d7%3A0x3d4b61e50759ce5d!2sChanje%20St%2C%20Uran%2C%20Navi%20Mumbai%2C%20Maharashtra%20400702!5e0!3m2!1sen!2sin!4v1699055972814!5m2!1sen!2sin",
-                    "dwgURL": "./dwg/Raigad/URAN/CHANJE/CHANJE 1 & 2.dwg ",
+                    "dwgURL": "./dwg/Raigad/URAN/CHANJE/CHANJE.dwg ",
                 },
                 "Navin Sheva": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.34482077883!2d72.94916502596216!3d18.871777908350516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7dbd226e5b821%3A0xe6f0d88cdaf96354!2sNavin%20Sheva%2C%20Navi%20Mumbai%2C%20Maharashtra%20400702!5e0!3m2!1sen!2sin!4v1699056012182!5m2!1sen!2sin",
@@ -995,11 +995,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 "Velas Agar": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15160.798751016922!2d72.96770526305063!3d18.200745159517147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be84f470f0f2b31%3A0x98e5ba9301944d0b!2sVelas%20Agar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699116227741!5m2!1sen!2sin",
-                    "dwgURL": "./dwg/Raigad/SHRIVARDHAN/VELAS AGAR/VELAS AGAR.dwg WADI.dwg",
+                    "dwgURL": "./dwg/Raigad/SHRIVARDHAN/VELAS AGAR/VELAS AGAR.dwg",
                 },
                 "Velas": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15160.100848214177!2d72.98034526305258!3d18.2087651584745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be84f4d01441e43%3A0x11ffc7e103cc2eb0!2sVelas%2C%20Maharashtra%20402403!5e0!3m2!1sen!2sin!4v1699116259333!5m2!1sen!2sin",
-                    "dwgURL": "./dwg/Raigad/SHRIVARDHAN/VELAS/VELAS.dwg AGAR.dwg WADI.dwg",
+                    "dwgURL": "./dwg/Raigad/SHRIVARDHAN/VELAS/VELAS.dwg",
                 },
                 "Vadavali": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7529.246867307031!2d72.82903014518487!3d19.34214005097342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ae44795435eb%3A0xc98dc5f3c03f477e!2sVadavali%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699116292638!5m2!1sen!2sin",
