@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 "Kochiwade": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1882.3446805124731!2d72.82272573882892!3d19.339281376344754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ae6965fb07af%3A0x28a04786a5c0515f!2sKhochiwade%2C%20Maharashtra%20401207!5e0!3m2!1sen!2sin!4v1699051680547!5m2!1sen!2sin",
-                    "dwgURL": "./dwg/Palghar/VASAI/KHOCHIWADA/KHOCHIWADE FINAL.dwg",
+                    "dwgURL": "./dwg/Palghar/VASAI/KHOCHIWADA/KHOCHIWADA.dwg",
                 },
                 "Vadiwali": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7529.246875906515!2d72.82443812698799!3d19.342139864545693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ae44795435eb%3A0xc98dc5f3c03f477e!2sVadavali%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699051709083!5m2!1sen!2sin",
