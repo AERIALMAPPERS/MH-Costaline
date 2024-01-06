@@ -150,5 +150,24 @@ $(document).ready(function () {
       }
     });
 
+    // Load GeoJSON data for Palghar Taluka using AJAX
+$.ajax({
+  dataType: 'json',
+  url: './GeoJSON/Palghar_Taluka_Boundry.geojson',
+  success: function (data) {
+    // Style function for GeoJSON layer
+    function style(feature) {
+      return {
+        weight: 2, // Border thickness
+        color: 'blue', // Border color
+      
+      };
+    }
+
+    // Add GeoJSON to the map with the specified style
+    L.geoJSON(data, { style: style }).addTo(map);
+  }
+});
+
   }, 1000); // 10-second delay
 });
