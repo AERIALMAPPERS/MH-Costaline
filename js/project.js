@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 "Zai": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14984.99849851903!2d72.73184137576085!3d20.12363087791252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be72a272b437cdb%3A0x83e815b1cb006dbc!2sZai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699292225138!5m2!1sen!2sin",
-                    "dwgURL": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
+                    "dwgURL": " ./dwg/Palghar/TALSARI/ZAI/ZAI.dwg",
                 },
 
             },
@@ -2054,6 +2054,10 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const data1 = {
         "Palghar": {
+            "TOPOPLAN": {
+                "Palghar": "./TopoPlan/Palghar/PALGHAR TOPOPLAN.dwg",
+                "Palghar TOPOPLAN": "./TopoPlan/Palghar/PALGHAR TOPOPLAN.dwg",
+            },
             "ecwLink": {
                 "Dahanu Ecw": "./ECW/ECW-Link/Palghar Ecw/Dhanu.gmw",
                 "Palghar Ecw": "./ECW/ECW-Link/Palghar Ecw/Palghar.gmw",
@@ -2291,6 +2295,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const ecwDiv = document.getElementById('ecw');
     const crzDiv = document.getElementById('pdfDiv')
     const crzLinkDiv = document.getElementById('ecw');
+    const TOPOPLANDiv = document.getElementById('ecw');
 
     // Populate district dropdown
     for (let district1 in data1) {
@@ -2389,6 +2394,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else {
                         // Handle the case where the ECW URL is not defined
                         crzLinkDiv.innerHTML = "ECW file not available for this village.";
+                        ecwPdfDiv.innerHTML = "";
+                    }
+                }
+
+                else if (selectedCategory === "TOPOPLAN") {
+                    const TOPOPLANUrl = ecwData;
+
+                    if (TOPOPLANUrl) {
+                        // Display the link in the 'ecw' div
+                        TOPOPLANDiv.innerHTML = `<a href="${TOPOPLANUrl}" download> Palghar TOPOPLAN</a>`;
+                        ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
+                    } else {
+                        // Handle the case where the ECW URL is not defined
+                        TOPOPLANDiv.innerHTML = "ECW file not available for this village.";
                         ecwPdfDiv.innerHTML = "";
                     }
                 }
