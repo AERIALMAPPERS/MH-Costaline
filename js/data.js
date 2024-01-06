@@ -138,9 +138,6 @@ $(document).ready(function () {
         // Style function for GeoJSON layer
         function style(feature) {
           return {
-             fill: true,
-            fillColor: 'rgba(255, 0, 0, 0.2)', // Set the background color and opacity for Palghar
-            fillOpacity: 1,
             weight: 2, // You can adjust the line weight as needed
             opacity: 1,
             color: 'Red',
