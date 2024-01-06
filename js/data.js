@@ -51,9 +51,6 @@ $(document).ready(function () {
     L.control.fullscreen().addTo(map);
     L.Control.geocoder().addTo(map);
 
-    // Adjust the height of the map container to take up the full screen
-    $('#map-container').css('height', '100vh');
-
     // Adding measurement control
     var polylineMeasure = L.control.polylineMeasure({
       position: 'topright',
@@ -64,6 +61,39 @@ $(document).ready(function () {
       showUnitControl: true
     });
     polylineMeasure.addTo(map);
+
+    // Adding drawing controls for circles and polygons
+    var editableLayers = new L.FeatureGroup();
+    map.addLayer(editableLayers);
+
+    var drawOptions = {
+      position: 'topright',
+      collapsed: false,
+      edit: {
+        featureGroup: editableLayers,
+        poly: {
+          allowIntersection: false
+        }
+      },
+      draw: {
+        polygon: {
+          allowIntersection: false,
+          showArea: true
+        },
+        circle: {
+          shapeOptions: {
+            color: 'blue'
+          },
+          showRadius: true,
+          metric: true,
+          feet: true,
+          nautic: false
+        }
+      }
+    };
+
+    var drawControl = new L.Control.Draw(drawOptions);
+    map.addControl(drawControl);
 
     // Some constant polyline coords:
     const line1coords = [
@@ -80,43 +110,48 @@ $(document).ready(function () {
 
     polylineMeasure.seed([line1coords, line2coords]);
 
-    // Load GeoJSON data using AJAX
+    // Load GeoJSON data for Maharashtra using AJAX
     $.ajax({
       dataType: 'json',
       url: './GeoJSON/Maharashtra.geojson',
       success: function (data) {
-        // Add GeoJSON to the map with black boundary color
-        L.geoJSON(data, {
-          style: {
-            color: 'black',
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
             weight: 2,
+            color: 'black',
             dashArray: '3',
-          }
-        }).addTo(map);
+        
+          };
+        }
+
+        // Add GeoJSON to the map with specified style
+        L.geoJSON(data, { style: style }).addTo(map);
       }
     });
 
-    // Load GeoJSON data for "palghar.geojson" using AJAX
+    // Load GeoJSON data for Maharashtra using AJAX
     $.ajax({
       dataType: 'json',
       url: './GeoJSON/Palghar.geojson',
       success: function (data) {
-        // Add GeoJSON to the map with a different boundary color, e.g., red
-        L.geoJSON(data, {
-          style: {
-            color: 'red', // Set the boundary line color to red for palghar
-            fill: true,
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
+             fill: true,
             fillColor: 'rgba(255, 0, 0, 0.2)', // Set the background color and opacity for Palghar
-            weight: 0,
             fillOpacity: 1,
             weight: 2, // You can adjust the line weight as needed
-          }
-        }).addTo(map);
+            opacity: 1,
+            color: 'Red',
+            fillOpacity: 0.7
+          };
+        }
+
+        // Add GeoJSON to the map with specified style
+        L.geoJSON(data, { style: style }).addTo(map);
       }
     });
-
-
-    // Rest of your code for the second map initialization and drawing controls
 
   }, 1000); // 10-second delay
 });
