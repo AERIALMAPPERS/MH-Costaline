@@ -2056,7 +2056,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Palghar": {
             "TOPOPLAN": {
                 "Palghar": "./TopoPlan/Palghar/PALGHAR TOPOPLAN.dwg",
-                "Palghar TOPOPLAN": "./TopoPlan/Palghar/PALGHAR TOPOPLAN.dwg",
+                "Palghar TOPOPLAN": "./TopoPlan/Palghar/PALGHAR_TOPOPLAN.dwg",
             },
             "ecwLink": {
                 "Dahanu Ecw": "./ECW/ECW-Link/Palghar Ecw/Dhanu.gmw",
