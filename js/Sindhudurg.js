@@ -110,7 +110,6 @@ $(document).ready(function () {
 
     polylineMeasure.seed([line1coords, line2coords]);
 
-
     // Load GeoJSON data for Maharashtra using AJAX
     $.ajax({
       dataType: 'json',
@@ -119,9 +118,9 @@ $(document).ready(function () {
         // Style function for GeoJSON layer
         function style(feature) {
           return {
-            weight: 2,
             color: 'black',
-            dashArray: '3',
+            dashArray: '4',
+            weight: 2,
 
           };
         }
@@ -131,36 +130,16 @@ $(document).ready(function () {
       }
     });
 
-    // Load GeoJSON data for Palghar using AJAX
+    // Load GeoJSON data for Sindhudurg using AJAX
     $.ajax({
       dataType: 'json',
-      url: './GeoJSON/Palghar.geojson',
-      success: function (data) {
-        // Style function for GeoJSON layer
-        function style(feature) {
-          return {
-            weight: 2, // You can adjust the line weight as needed
-            color: 'Red',
-            fillOpacity: 0.7
-          };
-        }
-
-        // Add GeoJSON to the map with specified style
-        L.geoJSON(data, { style: style }).addTo(map);
-      }
-    });
-
-    // Load GeoJSON data for Palghar Taluka using AJAX
-    $.ajax({
-      dataType: 'json',
-      url: './GeoJSON/Palghar_Taluka_Boundry.geojson',
+      url: './GeoJSON/Sindhudurg.geojson',
       success: function (data) {
         // Style function for GeoJSON layer
         function style(feature) {
           return {
             weight: 2, // Border thickness
-            color: 'blue', // Border color
-
+            color: 'red', // Border color
           };
         }
 
@@ -169,149 +148,23 @@ $(document).ready(function () {
       }
     });
 
-   // Load GeoJSON data for Thane using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Thane.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'red', // Border color
-          fillOpacity: 0.5
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-  
-  // Load GeoJSON data for Thane Taluka using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Thane_Taluka.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'blue', // Border color
-        
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
+    // Load GeoJSON data for Sindhudurg Taluka using AJAX
+    $.ajax({
+      dataType: 'json',
+      url: './GeoJSON/Sindhudurg_Taluka.geojson',
+      success: function (data) {
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
+            weight: 2, // Border thickness
+            color: 'blue', // Border color
+          };
+        }
 
-  // Load GeoJSON data for Raigad using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Raigad.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'red', // Border color
-          fillOpacity: 0.5
-        };
+        // Add GeoJSON to the map with the specified style
+        L.geoJSON(data, { style: style }).addTo(map);
       }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-  
-  // Load GeoJSON data for Raigad Taluka using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Raigad_Taluka.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'blue', // Border color
-        
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-
-  // Load GeoJSON data for Ratnagiri using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Ratnagiri.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'red', // Border color
-          fillOpacity: 0.5
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-  
-  // Load GeoJSON data for Ratnagiri Taluka using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Ratnagiri_Taluka.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'blue', // Border color
-        
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-
-  // Load GeoJSON data for Sindhudurg using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Sindhudurg.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'red', // Border color
-          fillOpacity: 0.5
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
-  
-  // Load GeoJSON data for Sindhudurg Taluka using AJAX
-  $.ajax({
-    dataType: 'json',
-    url: './GeoJSON/Sindhudurg_Taluka.geojson',
-    success: function (data) {
-      // Style function for GeoJSON layer
-      function style(feature) {
-        return {
-          weight: 2, // Border thickness
-          color: 'blue', // Border color
-        
-        };
-      }
-      // Add GeoJSON to the map with the specified style
-      L.geoJSON(data, { style: style }).addTo(map);
-    }
-  });
+    });
 
   }, 1000); // 10-second delay
 });
