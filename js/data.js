@@ -153,7 +153,7 @@ $(document).ready(function () {
     // Load GeoJSON data for Palghar Taluka using AJAX
     $.ajax({
       dataType: 'json',
-      url: './GeoJSON/Palghar_Taluka_Boundry.geojson',
+      url: './GeoJSON/Palghar_Taluka_boundry.geojson',
       success: function (data) {
         // Style function for GeoJSON layer
         function style(feature) {
@@ -306,6 +306,24 @@ $(document).ready(function () {
           weight: 2, // Border thickness
           color: 'blue', // Border color
         
+        };
+      }
+      // Add GeoJSON to the map with the specified style
+      L.geoJSON(data, { style: style }).addTo(map);
+    }
+  });
+
+  // Load GeoJSON data for Mumbai using AJAX
+  $.ajax({
+    dataType: 'json',
+    url: './GeoJSON/Mumbai.geojson',
+    success: function (data) {
+      // Style function for GeoJSON layer
+      function style(feature) {
+        return {
+          weight: 2, // Border thickness
+          color: 'red', // Border color
+          fillOpacity: 0.5
         };
       }
       // Add GeoJSON to the map with the specified style
