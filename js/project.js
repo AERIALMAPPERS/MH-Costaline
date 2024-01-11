@@ -2079,7 +2079,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-6": "./CRZ/CRZ-Pdf/PALGHAR/90.pdf",
                 "CRZ-7": "./CRZ/CRZ-Pdf/PALGHAR/92.pdf",
                 "CRZ-8": "./CRZ/CRZ-Pdf/PALGHAR/93.pdf",
-                "CRZ-9": "./CRZ/CRZ-Pdf/PALGHAR/94.pdf",
+                // "CRZ-9": "./CRZ/CRZ-Pdf/PALGHAR/94.pdf",
                 "CRZ-10": "./CRZ/CRZ-Pdf/PALGHAR/95.pdf",
                 "CRZ-11": "./CRZ/CRZ-Pdf/PALGHAR/97.pdf",
                 "CRZ-12": "./CRZ/CRZ-Pdf/PALGHAR/98.pdf",
@@ -2097,14 +2097,34 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-7": " ./CRZ/CRZ-Link/PALGHAR/CRZ-7.dwg",
                 "CRZ-8": "./CRZ/CRZ-Link/PALGHAR/CRZ-8.dwg",
                 // "CRZ-9": " ./CRZ/CRZ-Link/PALGHAR/CRZ-87 GEO.dwg",
-                // "CRZ-10": " ./CRZ/CRZ-Link/PALGHAR/CRZ-89 GEO.dwg",
-                // "CRZ-11": "./CRZ/CRZ-Link/PALGHAR/CRZ-82 GEO.dwg",
+                "CRZ-10": " ./CRZ/CRZ-Link/PALGHAR/CRZ-10.dwg",
+                "CRZ-11": "./CRZ/CRZ-Link/PALGHAR/CRZ-11.dwg",
                 "CRZ-12": " ./CRZ/CRZ-Link/PALGHAR/CRZ-12.dwg",
                 "CRZ-13": " ./CRZ/CRZ-Link/PALGHAR/CRZ-13.dwg",
                 "CRZ-14": " ./CRZ/CRZ-Link/PALGHAR/CRZ-14.dwg",
                 "CRZ-15": " ./CRZ/CRZ-Link/PALGHAR/CRZ-15.dwg",
             },
+            "CONTOUR": {
+                // "DAHANU CONTOUR": "./CRZ/CRZ-Link/PALGHAR/CRZ-1.dwg",
+                // "PALGHAR CONTOUR": " ./CRZ/CRZ-Link/PALGHAR/CRZ-2.dwg",
+                "CONTOUR": " ./CONTOUR/PALGHAR/VASAI CONTOUR.dwg",  
+                "VASAI CONTOUR": " ./CONTOUR/PALGHAR/VASAI CONTOUR.dwg",  
+            },
+            "DGPS": {
+                "PALGHAR KMZ File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
+                "PALGHAR DGPS CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
+                "PALGHAR GCP REPORT": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
+            },
+
+            "DEM": {
+                // "PALGHAR DEM": " ",
+                // "DAHANU DEM": " ",
+                " DEM": " ",
+                "VASAI DEM": " ./DEM/PALGHAR/VASAI.dem",  
+            },
         },
+
+
         "Thane": {
             "ecwLink": {
                 // "ECW1": " ",
@@ -2296,6 +2316,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const crzDiv = document.getElementById('pdfDiv')
     const crzLinkDiv = document.getElementById('ecw');
     const TOPOPLANDiv = document.getElementById('ecw');
+    const CONTOURDiv = document.getElementById('ecw');
+    const DGPSDiv = document.getElementById('ecw');
+    const DEMDiv = document.getElementById('ecw');
 
     // Populate district dropdown
     for (let district1 in data1) {
@@ -2408,6 +2431,48 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else {
                         // Handle the case where the ECW URL is not defined
                         TOPOPLANDiv.innerHTML = "ECW file not available for this village.";
+                        ecwPdfDiv.innerHTML = "";
+                    }
+                }
+// CONTOUR
+                else if (selectedCategory === "CONTOUR") {
+                    const CONTOURUrl = ecwData;
+
+                    if (CONTOURUrl) {
+                        // Display the link in the 'ecw' div
+                        CONTOURDiv.innerHTML = `<a href="${CONTOURUrl}" download> CONTOUR</a>`;
+                        ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
+                    } else {
+                        // Handle the case where the ECW URL is not defined
+                        CONTOURDiv.innerHTML = "ECW file not available for this village.";
+                        ecwPdfDiv.innerHTML = "";
+                    }
+                }
+//DGPS
+                else if (selectedCategory === "DGPS") {
+                    const DGPSUrl = ecwData;
+
+                    if (DGPSUrl) {
+                        // Display the link in the 'ecw' div
+                        DGPSDiv.innerHTML = `<a href="${DGPSUrl}" download> Palghar DGPS</a>`;
+                        ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
+                    } else {
+                        // Handle the case where the ECW URL is not defined
+                        DGPSDiv.innerHTML = "ECW file not available for this village.";
+                        ecwPdfDiv.innerHTML = "";
+                    }
+                }
+//DEM
+                else if (selectedCategory === "DEM") {
+                    const DEMUrl = ecwData;
+
+                    if (DEMUrl) {
+                        // Display the link in the 'ecw' div
+                        DEMDiv.innerHTML = `<a href="${DEMUrl}" download> Download DEM</a>`;
+                        ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
+                    } else {
+                        // Handle the case where the ECW URL is not defined
+                        DEMDiv.innerHTML = "ECW file not available for this village.";
                         ecwPdfDiv.innerHTML = "";
                     }
                 }
