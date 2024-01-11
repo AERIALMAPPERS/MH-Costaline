@@ -2116,9 +2116,9 @@ document.addEventListener("DOMContentLoaded", function () {
             },
 
             "DEM": {
-                // "PALGHAR DEM": " ",
-                // "DAHANU DEM": " ",
-                " DEM": " ",
+                "PALGHAR DEM": "./DEM/PALGHAR/PALGHAR.dem ",
+                "DAHANU DEM": "./DEM/PALGHAR/DAHANU.dem ",
+                "TALASARI DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
                 "VASAI DEM": " ./DEM/PALGHAR/VASAI.dem",  
             },
         },
