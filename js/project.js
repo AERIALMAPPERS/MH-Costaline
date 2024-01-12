@@ -2053,22 +2053,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     const data1 = {
+//Palghar        
         "Palghar": {
             "TOPOPLAN": {
                 "Palghar": "./TopoPlan/Palghar/PALGHAR TOPOPLAN.dwg",
                 "Palghar TOPOPLAN": "./TopoPlan/Palghar/PALGHAR_TOPOPLAN.dwg",
             },
             "ecwLink": {
-                "Dahanu Ecw": "./ECW/ECW-Link/Palghar Ecw/Dhanu.gmw",
-                "Palghar Ecw": "./ECW/ECW-Link/Palghar Ecw/Palghar.gmw",
-                "Talasari Ecw": "./ECW/ECW-Link/Palghar Ecw/Talasari.gmw",
-                "Vasai Ecw": "./ECW/ECW-Link/Palghar Ecw/Vasai.gmw",
+                "Dahanu_ECW": "./ECW/ECW-Link/Palghar Ecw/Dhanu.gmw",
+                "Palghar_ECW": "./ECW/ECW-Link/Palghar Ecw/Palghar.gmw",
+                "Talasari_ECW": "./ECW/ECW-Link/Palghar Ecw/Talasari.gmw",
+                "Vasai_ECW": "./ECW/ECW-Link/Palghar Ecw/Vasai.gmw",
             },
             "ecwPdf": {
-                "Dahanu Pdf": "./ECW/ECW Pdf/Palghar/Dhanu.pdf",
-                "Palghar Pdf": "./ECW/ECW Pdf/Palghar/Palghar.pdf",
-                "Talasari Pdf": "./ECW/ECW Pdf/Palghar/Talasari.pdf",
-                "Vasai Pdf": "./ECW/ECW Pdf/Palghar/Vasai.pdf",
+                "Dahanu_Pdf": "./ECW/ECW Pdf/Palghar/Dhanu.pdf",
+                "Palghar_Pdf": "./ECW/ECW Pdf/Palghar/Palghar.pdf",
+                "Talasari_Pdf": "./ECW/ECW Pdf/Palghar/Talasari.pdf",
+                "Vasai_Pdf": "./ECW/ECW Pdf/Palghar/Vasai.pdf",
             },
             "CRZPdf": {
                 "CRZ-1": "./CRZ/CRZ-Pdf/PALGHAR/82.pdf",
@@ -2105,25 +2106,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 "CRZ-14": " ./CRZ/CRZ-Link/PALGHAR/CRZ-14.dwg",
             },
             "CONTOUR": {
-                "DAHANU CONTOUR": "./CONTOUR/PALGHAR/DHANU(1M INTERVAL)CONTOUR.dwg",
-                // "PALGHAR CONTOUR": " ./CRZ/CRZ-Link/PALGHAR/CRZ-2.dwg", 
-                "VASAI CONTOUR": " ./CONTOUR/PALGHAR/VASAI(1M INTERVAL)CONTOUR.dwg",  
+                "Dahanu_Contour": "./CONTOUR/PALGHAR/DHANU(1M INTERVAL)CONTOUR.dwg",
+                // "Palghar Contour": " ./CRZ/CRZ-Link/PALGHAR/CRZ-2.dwg", 
+                "Vasai_Contour": " ./CONTOUR/PALGHAR/VASAI(1M INTERVAL)CONTOUR.dwg",  
             },
             "DGPS": {
-                "PALGHAR KMZ File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
-                "PALGHAR DGPS CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
-                "PALGHAR GCP REPORT": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
+                "Palghar_KMZ_File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
+                "Palghar_DGPS_CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
+                "Palghar_GCP_Report": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
             },
 
             "DEM": {
-                "PALGHAR DEM": "./DEM/PALGHAR/PALGHAR.dem ",
-                "DAHANU DEM": "./DEM/PALGHAR/DAHANU.dem ",
-                "TALASARI DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
-                "VASAI DEM": " ./DEM/PALGHAR/VASAI.dem",  
+                "Palghar_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
+                "Dahanu_DEM": "./DEM/PALGHAR/DAHANU.dem ",
+                "Talasari_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
+                "Vasai_DEM": " ./DEM/PALGHAR/VASAI.dem",  
             },
         },
 
-
+//Thane
         "Thane": {
             "ecwLink": {
                 // "ECW1": " ",
@@ -2155,6 +2156,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
             },
         },
+
+//Mumbai        
         "Mumbai City & Suburban": {
             "ecwLink": {
                 // "ECW1": " ",
@@ -2182,46 +2185,105 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
             },
         },
+
+//Raigad        
         "Raigad": {
+            "TOPOPLAN": {
+                // "Raigad" : "./Topoplan/Raigad/RAIGAD TOPOPLAN.dwg",
+                // "Raigad TOPOPLAN" : "./TopoPlan/Raigad/RAIGAD_TOPOPLAN.dwg",
+            },
             "ecwLink": {
-                // "ECW1": " ",
-                // "ECW2": " ",
+                "Alibag_ECW": "./ECW/ECW-Link/Raigad Ecw/ALIBAG.gmw",
+                "Mhasala_ECW":"./ECW/ECW-Link/Raigad Ecw/MHASALA.gmw",
+                "Murud_ECW":"./ECW/ECW-Link/Raigad Ecw/MURUD.gmw",
+                "Panvel_ECW":"./ECW/ECW-Link/Raigad Ecw/PANVEL.gmw",
+                "Pen_ECW":"./ECW/ECW-Link/Raigad Ecw/PEN.gmw",
+                "Shrivardhan_ECW":"./ECW/ECW-Link/Raigad Ecw/SHRIVRDHAN.gmw",
+                "Tala_ECW":"./ECW/ECW-Link/Raigad Ecw/TALA.gmw",
+                "Uran_ECW":"./ECW/ECW-Link/Raigad Ecw/URAN.gmw",
             },
             "ecwPdf": {
-                // "PDF-1": "./Ecw Pdf/Palghar/pdf1_compressed.pdf",
-                // "PDF-2": "./Ecw Pdf/Palghar/pdf2_compressed.pdf",
-                // "PDF-3": "./Ecw Pdf/Palghar/pdf3_compressed.pdf",
-                // "PDF-4": "./Ecw Pdf/Palghar/pdf4_compressed.pdf",
+                "Alibag_Pdf": "./ECW/ECW Pdf/Raigad/ALIBAG.pdf",
+                "Mhasala_Pdf":"./ECW/ECW Pdf/Raigad/MHASALA.pdf",
+                "Murud_Pdf":"./ECW/ECW Pdf/Raigad/MURUD.pdf",
+                "Panvel_Pdf":"./ECW/ECW Pdf/Raigad/PANVEL.pdf",
+                "Pen_Pdf":"./ECW/ECW Pdf/Raigad/PEN.pdf",
+                "Shrivardhan_Pdf":"./ECW/ECW Pdf/Raigad/SHRIVRDHAN.pdf",
+                "Tala_Pdf":"./ECW/ECW Pdf/Raigad/TALA.pdf",
+                "Uran_Pdf":"./ECW/ECW Pdf/Raigad/URAN.pdf",
             },
             "CRZPdf": {
-                "CRZ-1": "./CRZ/RAIGAD/47.pdf",
-                "CRZ-2": "./CRZ/RAIGAD/48.pdf",
-                "CRZ-3": "./CRZ/RAIGAD/49.pdf",
-                "CRZ-4": "./CRZ/RAIGAD/50.pdf",
-                "CRZ-5": "./CRZ/RAIGAD/54.pdf",
-                "CRZ-6": "./CRZ/RAIGAD/54.pdf",
-                "CRZ-7": "./CRZ/RAIGAD/55.pdf",
-                "CRZ-8": "./CRZ/RAIGAD/57.pdf",
-                "CRZ-9": "./CRZ/RAIGAD/58.pdf",
-                "CRZ-10": "./CRZ/RAIGAD/60.pdf",
-                "CRZ-11": "./CRZ/RAIGAD/61.pdf",
-                "CRZ-12": "./CRZ/RAIGAD/62.pdf",
-                "CRZ-13": "./CRZ/RAIGAD/63.pdf",
-                "CRZ-14": "./CRZ/RAIGAD/65.pdf",
-                "CRZ-15": "./CRZ/RAIGAD/66.pdf",
-                "CRZ-16": "./CRZ/RAIGAD/68.pdf",
-                "CRZ-17": "./CRZ/RAIGAD/69.pdf",
-                "CRZ-18": "./CRZ/RAIGAD/73.pdf",
-                "CRZ-19": "./CRZ/RAIGAD/77.pdf",
+                "CRZ-1": "./CRZ/CRZ-Pdf/RAIGAD/47.pdf",
+                "CRZ-2": "./CRZ/CRZ-Pdf/RAIGAD/48.pdf",
+                "CRZ-3": "./CRZ/CRZ-Pdf/RAIGAD/49.pdf",
+                "CRZ-4": "./CRZ/CRZ-Pdf/RAIGAD/50.pdf",
+                "CRZ-5": "./CRZ/CRZ-Pdf/RAIGAD/54.pdf",
+                "CRZ-6": "./CRZ/CRZ-Pdf/RAIGAD/54.pdf",
+                "CRZ-7": "./CRZ/CRZ-Pdf/RAIGAD/55.pdf",
+                "CRZ-8": "./CRZ/CRZ-Pdf/RAIGAD/57.pdf",
+                "CRZ-9": "./CRZ/CRZ-Pdf/RAIGAD/58.pdf",
+                "CRZ-10": "./CRZ/CRZ-Pdf/RAIGAD/60.pdf",
+                "CRZ-11": "./CRZ/CRZ-Pdf/RAIGAD/61.pdf",
+                "CRZ-12": "./CRZ/CRZ-Pdf/RAIGAD/62.pdf",
+                "CRZ-13": "./CRZ/CRZ-Pdf/RAIGAD/63.pdf",
+                "CRZ-14": "./CRZ/CRZ-Pdf/RAIGAD/65.pdf",
+                "CRZ-15": "./CRZ/CRZ-Pdf/RAIGAD/66.pdf",
+                "CRZ-16": "./CRZ/CRZ-Pdf/RAIGAD/68.pdf",
+                "CRZ-17": "./CRZ/CRZ-Pdf/RAIGAD/69.pdf",
+                "CRZ-18": "./CRZ/CRZ-Pdf/RAIGAD/73.pdf",
+                "CRZ-19": "./CRZ/CRZ-Pdf/RAIGAD/77.pdf",
             },
             "CRZLink": {
-                // "CRZ-1": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
-                // "CRZ-2": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
-                // "CRZ-3": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
-                // "CRZ-4": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
-                // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
-            }
+                // "CRZ-1": "./CRZ/CRZ-Link/RAIGAD/CRZ-1.dwg",
+                // "CRZ-2": "./CRZ/CRZ-Link/RAIGAD/CRZ-2.dwg",
+                // "CRZ-3": "./CRZ/CRZ-Link/RAIGAD/CRZ-3.dwg",
+                // "CRZ-4": "./CRZ/CRZ-Link/RAIGAD/CRZ-4.dwg",
+                // "CRZ-5": "./CRZ/CRZ-Link/RAIGAD/CRZ-5.dwg",
+                // "CRZ-6": "./CRZ/CRZ-Link/RAIGAD/CRZ-6.dwg",
+                // "CRZ-7": "./CRZ/CRZ-Link/RAIGAD/CRZ-7.dwg",
+                // "CRZ-8": "./CRZ/CRZ-Link/RAIGAD/CRZ-8.dwg",
+                // "CRZ-9": "./CRZ/CRZ-Link/RAIGAD/CRZ-9.dwg",
+                // "CRZ-10": "./CRZ/CRZ-Link/RAIGAD/CRZ-10.dwg",
+                // "CRZ-11": "./CRZ/CRZ-Link/RAIGAD/CRZ-11.dwg",
+                // "CRZ-12": "./CRZ/CRZ-Link/RAIGAD/CRZ-12.dwg",
+                // "CRZ-13": "./CRZ/CRZ-Link/RAIGAD/CRZ-13.dwg",
+                // "CRZ-14": "./CRZ/CRZ-Link/RAIGAD/CRZ-14.dwg",
+                // "CRZ-15": "./CRZ/CRZ-Link/RAIGAD/CRZ-15.dwg",
+                // "CRZ-16": "./CRZ/CRZ-Link/RAIGAD/CRZ-16.dwg",
+                // "CRZ-17": "./CRZ/CRZ-Link/RAIGAD/CRZ-17.dwg",
+                // "CRZ-18": "./CRZ/CRZ-Link/RAIGAD/CRZ-18.dwg",
+                // "CRZ-19": "./CRZ/CRZ-Link/RAIGAD/CRZ-19.dwg",
+            },
+            "CONTOUR": {
+                // "Alibag_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
+                // "Mhasala_Contour": "./CONTOUR/RAIGAD/Mhasala(1M INTERVAL)CONTOUR.dwg",
+                // "Murud_Contour": "./CONTOUR/RAIGAD/Murud(1M INTERVAL)CONTOUR.dwg",
+                // "Panvel_Contour": "./CONTOUR/RAIGAD/Panvel(1M INTERVAL)CONTOUR.dwg",
+                // "Pen_Contour": "./CONTOUR/RAIGAD/Pen(1M INTERVAL)CONTOUR.dwg",
+                // "Shrivardhan_Contour": "./CONTOUR/RAIGAD/Shrivardhan(1M INTERVAL)CONTOUR.dwg",
+                // "Tala_Contour": "./CONTOUR/RAIGAD/Tala(1M INTERVAL)CONTOUR.dwg",
+                // "Uran_Contour": "./CONTOUR/RAIGAD/Uran(1M INTERVAL)CONTOUR.dwg",
+           
+            },
+            "DGPS": {
+                // "PALGHAR KMZ File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
+                // "PALGHAR DGPS CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
+                // "PALGHAR GCP REPORT": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
+            },
+
+            "DEM": {
+                // "Alibag_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
+                // "Mhasala_DEM": "./DEM/PALGHAR/DAHANU.dem ",
+                // "Murud_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
+                // "Panvel_DEM": " ./DEM/PALGHAR/VASAI.dem",  
+                // "Pen_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
+                // "Shrivardhan_DEM": "./DEM/PALGHAR/DAHANU.dem ",
+                // "Tala_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
+                // "Uran_DEM": " ./DEM/PALGHAR/VASAI.dem",  
+            },     
         },
+
+//Rtanagiri
         "Ratnagiri": {
             "ecwLink": {
                 // "ECW1": " ",
@@ -2267,6 +2329,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "CRZ-5": " ./dwg/Palghar/TALSARI/ZAI/ZAI_ 1 GEOREFRENCED.dwg",
             }
         },
+
+//Sindhudurg
         "Sindhudurg": {
             "ecwLink": {
                 // "ECW1": " ",
