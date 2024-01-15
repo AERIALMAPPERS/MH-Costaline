@@ -2272,25 +2272,28 @@ document.addEventListener("DOMContentLoaded", function () {
            
             },
             "DGPS": {
-                // "PALGHAR KMZ File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
-                // "PALGHAR DGPS CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
-                // "PALGHAR GCP REPORT": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
+                "Raigad_KMZ_File": "./DGPS/RAIGAD/RAIGAD DGPS.kmz",
+                "Raigad_DGPS_CSV": " ./DGPS/RAIGAD/RAIGAD DGPS.csv",
             },
 
             "DEM": {
-                // "Alibag_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
-                // "Mhasala_DEM": "./DEM/PALGHAR/DAHANU.dem ",
-                // "Murud_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
-                // "Panvel_DEM": " ./DEM/PALGHAR/VASAI.dem",  
-                // "Pen_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
-                // "Shrivardhan_DEM": "./DEM/PALGHAR/DAHANU.dem ",
-                // "Tala_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
-                // "Uran_DEM": " ./DEM/PALGHAR/VASAI.dem",  
+                "Alibag_DEM": "./DEM/RAIGAD/ALIBAG.dem",
+                "Mhasala_DEM": "./DEM/RAIGAD/MHASALA.dem",
+                "Murud_DEM": "./DEM/RAIGAD/MURUD.dem ",
+                "Panvel_DEM": "./DEM/RAIGAD/PANVEL.dem",  
+                "Pen_DEM": "./DEM/RAIGAD/PEN.dem",
+                "Shrivardhan_DEM": "./DEM/RAIGAD/SHRIVADHAN.dem",
+                "Tala_DEM": "./DEM/RAIGAD/TALA.dem",
+                "Uran_DEM": "./DEM/RAIGAD/URAN.dem",  
             },     
         },
 
 //Rtanagiri
         "Ratnagiri": {
+            "TOPOPLAN": {
+                // "Ratnagiri" : "./Topoplan/Ratnagiri/RATNAGIRI TOPOPLAN.dwg",
+            },
+
             "ecwLink": {
                 "Dapoli_ECW": "./ECW/Ratnagiri/ECW/DAPOLI.gmw",
                 "Guhaghar_ECW": "./ECW/Ratnagiri/ECW/GUHAGHAR.gmw",
@@ -2361,25 +2364,45 @@ document.addEventListener("DOMContentLoaded", function () {
                 //  "CRZ-22": "./CRZ/CRZ-Link/RATNAGIRI/CRZ-22.dwg",
                 //  "CRZ-23": "./CRZ/CRZ-Link/RATNAGIRI/CRZ-23.dwg",
                 //  "CRZ-24": "./CRZ/CRZ-Link/RATNAGIRI/CRZ-24.dwg",
-            }
+            },
+            "CONTOUR": {
+                // "Dapoli_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
+                // "Guhaghar_Contour": "./CONTOUR/RAIGAD/Mhasala(1M INTERVAL)CONTOUR.dwg",
+                // "Mandangad_Contour": "./CONTOUR/RAIGAD/Murud(1M INTERVAL)CONTOUR.dwg",
+                // "Rajapur_Contour": "./CONTOUR/RAIGAD/Panvel(1M INTERVAL)CONTOUR.dwg",
+                // "Ratnagiri_Contour": "./CONTOUR/RAIGAD/Pen(1M INTERVAL)CONTOUR.dwg",    
+           
+            },
+            "DGPS": {
+                "Ratnagiri_KMZ_File": "./DGPS/RATNAGIRI/RATNAGIRI DGPS.kmz",
+                "Ratnagiri_DGPS_CSV": "./DGPS/RATNAGIRI/RATNAGIRI DGPS.csv",
+           
+            },
+
+            "DEM": {
+                "Dapoli_DEM": "./DEM/RATNAGIRI/DAPOLI.dem",
+                "Ghuhaghar_DEM": "./DEM/RATNAGIRI/",
+                "Mandangad_DEM": "./DEM/RATNAGIRI/MANDANGAD DEM.dem",   
+                "Rajapur_DEM": "./DEM/RATNAGIRI/",
+                "Ratnagiri_DEM": "./DEM/RATNAGIRI/",        
+            },      
         },
 
 //Sindhudurg
         "Sindhudurg": {
             "TOPOPLAN": {
-                // "Sindhudurg" : "./Topoplan/Raigad/SINDHUDURG TOPOPLAN.dwg",
-               
+                // "Sindhudurg" : "./Topoplan/Sindhudurg/SINDHUDURG TOPOPLAN.dwg",
             },
             "ecwLink": {
-                // "Devgad_ECW": "./ECW/Raigad/ECW/Devgad.gmw",
-                // "Malvan_ECW":"./ECW/Raigad/ECW/Malvan.gmw",
-                // "Vengurla_ECW":"./ECW/Raigad/ECW/Vengurla.gmw",
+                "Devgad_ECW": "./ECW/Sindhudurg/ECW/DEVGAD.gmw",
+                "Malvan_ECW":"./ECW/Sindhudurg/ECW/MALVAN.gmw",
+                "Vengurla_ECW":"./ECW/Sindhudurg/ECW/VENGURLA.gmw",
                 
             },
             "ecwPdf": {
-                // "Devgad_Pdf": "./ECW/Raigad/PDF/DEVGAD.pdf",
-                // "Malvan_Pdf":"./ECW/Raigad/PDF/Malvan.pdf",
-                // "Vengurla_Pdf":"./ECW/Raigad/PDF/VENGURLA.pdf",
+                "Devgad_Pdf": "./ECW/Sindhudurg/PDF/DEVGAD.pdf",
+                "Malvan_Pdf":"./ECW/Sindhudurg/PDF/MALVAN.pdf",
+                "Vengurla_Pdf":"./ECW/Sindhudurg/PDF/VENGURLA.pdf",
                 
             },
             "CRZPdf": {
@@ -2432,23 +2455,16 @@ document.addEventListener("DOMContentLoaded", function () {
            
             },
             "DGPS": {
-                // "PALGHAR KMZ File": "./DGPS/PALGHAR/PALGHAR  DGPS.kmz",
-                // "PALGHAR DGPS CSV": " ./DGPS/PALGHAR/PALGHAR DGPS.csv",
-                // "PALGHAR GCP REPORT": " ./DGPS/PALGHAR/PALGHAR GCP REPORT.pdf",  
+                "Sindhudurg_KMZ_File": "./DGPS/SINDHUDURG/SINDHUDURG DGPS.kmz",
+                "Sindhudurg_DGPS_CSV": "./DGPS/SINDHUDURG/sindhudurg dgps.csv",
+           
             },
 
             "DEM": {
-                // "Alibag_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
-                // "Mhasala_DEM": "./DEM/PALGHAR/DAHANU.dem ",
-                // "Murud_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
-                // "Panvel_DEM": " ./DEM/PALGHAR/VASAI.dem",  
-                // "Pen_DEM": "./DEM/PALGHAR/PALGHAR.dem ",
-                // "Shrivardhan_DEM": "./DEM/PALGHAR/DAHANU.dem ",
-                // "Tala_DEM": "./DEM/PALGHAR/TALASARI DEM.dem ",
-                // "Uran_DEM": " ./DEM/PALGHAR/VASAI.dem",  
-            },  
-         
-            
+                "Devgad_DEM": "./DEM/SINDHUDURG/DEVGAD.dem",
+                "Malvan_DEM": "./DEM/SINDHUDURG/MALVAN.dem",
+                "Vengurla_DEM": "./DEM/SINDHUDURG/VENGURLA.dem",         
+            },           
         },
     };
 
