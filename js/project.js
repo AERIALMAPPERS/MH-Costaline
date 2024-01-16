@@ -2262,10 +2262,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             "CONTOUR": {
                 // "Alibag_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
-                // "Mhasala_Contour": "./CONTOUR/RAIGAD/Mhasala(1M INTERVAL)CONTOUR.dwg",
+                "Mhasala_Contour": "./CONTOUR/RAIGAD/MHASALA 20X20 ELEVATION.dwg",
                 // "Murud_Contour": "./CONTOUR/RAIGAD/Murud(1M INTERVAL)CONTOUR.dwg",
-                // "Panvel_Contour": "./CONTOUR/RAIGAD/Panvel(1M INTERVAL)CONTOUR.dwg",
-                // "Pen_Contour": "./CONTOUR/RAIGAD/Pen(1M INTERVAL)CONTOUR.dwg",
+                "Panvel_Contour": "./CONTOUR/RAIGAD/PANVEL 20X20 ELEVATION.DWG",
+                "Pen_Contour": "./CONTOUR/RAIGAD/PEN 20X20 ELEVATION.dwg",
                 // "Shrivardhan_Contour": "./CONTOUR/RAIGAD/Shrivardhan(1M INTERVAL)CONTOUR.dwg",
                 // "Tala_Contour": "./CONTOUR/RAIGAD/Tala(1M INTERVAL)CONTOUR.dwg",
                 // "Uran_Contour": "./CONTOUR/RAIGAD/Uran(1M INTERVAL)CONTOUR.dwg",
