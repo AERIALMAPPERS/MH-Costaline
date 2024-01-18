@@ -166,8 +166,46 @@ $(document).ready(function () {
       }
     });
 
+    // Load GeoJSON data for Ratnagiri Village using AJAX
+    $.ajax({
+      dataType: 'json',
+      url: './GeoJSON/Ratnagiri_Taluka.geojson',
+      success: function (data) {
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
+            weight: 2, // Border thickness
+            color: 'blue', // Border color
+          };
+        }
+        
+        // Add GeoJSON to the map with the specified style
+        L.geoJSON(data, { style: style }).addTo(map);
+      }
+    });
+
+    // Load GeoJSON data for Ratnagiri Village using AJAX
+    $.ajax({
+      dataType: 'json',
+      url: './GeoJSON/Ratnagiri_Village.geojson',
+      success: function (data) {
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
+            weight: 2, // Border thickness
+            color: 'brown', // Border color
+          };
+        }
+        
+        // Add GeoJSON to the map with the specified style
+        L.geoJSON(data, { style: style }).addTo(map);
+      }
+    });
+
   }, 1000); // 10-second delay
 });
+
+
 
 
 

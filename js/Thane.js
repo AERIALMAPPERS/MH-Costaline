@@ -121,6 +121,7 @@ $(document).ready(function () {
             color: 'black',
             dashArray: '4',
             weight: 2,
+
           };
         }
 
@@ -165,8 +166,27 @@ $(document).ready(function () {
       }
     });
 
+    // Load GeoJSON data for Thane village using AJAX
+    $.ajax({
+      dataType: 'json',
+      url: './GeoJSON/Thane_Village.geojson',
+      success: function (data) {
+        // Style function for GeoJSON layer
+        function style(feature) {
+          return {
+            weight: 2, // Border thickness
+            color: 'brown', // Border color
+          };
+        }
+
+        // Add GeoJSON to the map with the specified style
+        L.geoJSON(data, { style: style }).addTo(map);
+      }
+    });
+
   }, 1000); // 10-second delay
 });
+
 
 
 function toggleDropdown() {

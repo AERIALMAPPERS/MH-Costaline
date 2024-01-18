@@ -171,6 +171,24 @@ $(document).ready(function () {
         }
       });
   
+
+      // Load GeoJSON data for Raigad village using AJAX
+      $.ajax({
+        dataType: 'json',
+        url: './GeoJSON/Raigad_Village.geojson',
+        success: function (data) {
+          // Style function for GeoJSON layer
+          function style(feature) {
+            return {
+              weight: 2, // Border thickness
+              color: 'Brown', // Border color
+            };
+          }
+
+          // Add GeoJSON to the map with the specified style
+          L.geoJSON(data, { style: style }).addTo(map);
+        }
+      });
   
  
   
