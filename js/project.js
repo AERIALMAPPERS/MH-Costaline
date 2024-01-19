@@ -964,6 +964,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 //dwg not            
                 "Kudgaon": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7578.717851191331!2d72.96321119511568!3d18.239360521018558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be845c092b29641%3A0xab4c33a23708db21!2sKudgaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699309908391!5m2!1sen!2sin",
+                    "dwgURL": "./dwg/Raigad/SHRIVARDHAN/KUDGAON/KUDGAON.dwg ",
                 },
                 "Karlas": {
                     "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.1288832198875!2d72.9588462358283!3d18.249912383031543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be845b9582c1853%3A0xd8a83247fa032c1b!2sKarlas%2C%20Maharashtra%20402402!5e0!3m2!1sen!2sin!4v1699115975313!5m2!1sen!2sin",
