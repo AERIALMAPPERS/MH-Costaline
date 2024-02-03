@@ -2370,8 +2370,10 @@ document.addEventListener("DOMContentLoaded", function () {
 //Sindhudurg
         "Sindhudurg": {
             "TOPOPLAN": {
-                // "Sindhudurg" : "./Topoplan/Sindhudurg/SINDHUDURG TOPOPLAN.dwg",
-            },
+                "Sindhudurg" : "./Topoplan/Sindhudurg/SINDHUDURG TOPOPLAN.dwg",
+             
+                // "Sindhudurg" : "./Topoplan/Sindhudurg/Sindhudurg_Topoplan.dwg",
+             },
             "ecwLink": {
                 "Devgad_ECW": "./ECW/Sindhudurg/ECW/DEVGAD.gmw",
                 "Malvan_ECW":"./ECW/Sindhudurg/ECW/MALVAN.gmw",
@@ -2385,23 +2387,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 
             },
             "CRZPdf": {
-                "CRZ-1": "./CRZ/CRZ-Pdf/SINDHUDURG/1.pdf",
-                "CRZ-2": "./CRZ/CRZ-Pdf/SINDHUDURG/2.pdf",
-                "CRZ-3": "./CRZ/CRZ-Pdf/SINDHUDURG/3.pdf",
-                "CRZ-4": "./CRZ/CRZ-Pdf/SINDHUDURG/4.pdf",
-                "CRZ-5": "./CRZ/CRZ-Pdf/SINDHUDURG/5.pdf",
-                "CRZ-6": "./CRZ/CRZ-Pdf/SINDHUDURG/6.pdf",
-                "CRZ-7": "./CRZ/CRZ-Pdf/SINDHUDURG/7.pdf",
-                "CRZ-8": "./CRZ/CRZ-Pdf/SINDHUDURG/8.pdf",
-                "CRZ-9": "./CRZ/CRZ-Pdf/SINDHUDURG/9.pdf",
-                "CRZ-10": "./CRZ/CRZ-Pdf/SINDHUDURG/11.pdf",
-                "CRZ-11": "./CRZ/CRZ-Pdf/SINDHUDURG/12.pdf",
-                "CRZ-12": "./CRZ/CRZ-Pdf/SINDHUDURG/13.pdf",
-                "CRZ-13": "./CRZ/CRZ-Pdf/SINDHUDURG/14.pdf",
-                "CRZ-14": "./CRZ/CRZ-Pdf/SINDHUDURG/15.pdf",
-                "CRZ-15": "./CRZ/CRZ-Pdf/SINDHUDURG/16.pdf",
-                "CRZ-16": "./CRZ/CRZ-Pdf/SINDHUDURG/18.pdf",
-                "CRZ-17": "./CRZ/CRZ-Pdf/SINDHUDURG/19.pdf",
+                "CRZ-1": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-1.pdf",
+                "CRZ-2": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-2.pdf",
+                "CRZ-3": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-3.pdf",
+                "CRZ-4": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-4.pdf",
+                "CRZ-5": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-5.pdf",
+                "CRZ-6": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-6.pdf",
+                "CRZ-7": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-7.pdf",
+                "CRZ-8": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-8.pdf",
+                "CRZ-9": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-9.pdf",
+                "CRZ-10": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-10.pdf",
+                "CRZ-11": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-11.pdf",
+                "CRZ-12": "./CRZ/CRZ-Pdf/SINDHUDURG/CRZ-12.pdf",
+                
             },
             "CRZLink": {
                 // "CRZ-1": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-1.dwg",
@@ -2416,11 +2414,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // "CRZ-10": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-10.dwg",
                 // "CRZ-11": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-11.dwg",
                 // "CRZ-12": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-12.dwg",
-                // "CRZ-13": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-13.dwg",
-                // "CRZ-14": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-14.dwg",
-                // "CRZ-15": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-15.dwg",
-                // "CRZ-16": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-16.dwg",
-                // "CRZ-17": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-17.dwg",
+               
             },
             "CONTOUR": {
                 // "Alibag_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
