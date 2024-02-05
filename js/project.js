@@ -2289,7 +2289,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "Ratnagiri": {
             "TOPOPLAN": {
                 // "Ratnagiri" : "./Topoplan/Ratnagiri/RATNAGIRI TOPOPLAN.dwg",
+                // "Ratnagiri TOPOPLAN" : "./TopoPlan/RATNAGIRI/RATNAGIRI TOPOPLAN.dwg",
             },
+            
 
             "ecwLink": {
                 "Dapoli_ECW": "./ECW/Ratnagiri/ECW/DAPOLI.gmw",
@@ -2370,9 +2372,9 @@ document.addEventListener("DOMContentLoaded", function () {
 //Sindhudurg
         "Sindhudurg": {
             "TOPOPLAN": {
-                "Sindhudurg" : "./Topoplan/Sindhudurg/SINDHUDURG TOPOPLAN.dwg",
-             
-                // "Sindhudurg" : "./Topoplan/Sindhudurg/Sindhudurg_Topoplan.dwg",
+              // "Sindhudurg" : "./Topoplan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
+             // "Sindhudurg TOPOPLAN" : "./TopoPlan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
+              
              },
             "ecwLink": {
                 "Devgad_ECW": "./ECW/Sindhudurg/ECW/DEVGAD.gmw",
@@ -2402,29 +2404,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 
             },
             "CRZLink": {
-                // "CRZ-1": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-1.dwg",
-                // "CRZ-2": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-2.dwg",
-                // "CRZ-3": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-3.dwg",
-                // "CRZ-4": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-4.dwg",
-                // "CRZ-5": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-5.dwg",
-                // "CRZ-6": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-6.dwg",
-                // "CRZ-7": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-7.dwg",
-                // "CRZ-8": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-8.dwg",
-                // "CRZ-9": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-9.dwg",
-                // "CRZ-10": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-10.dwg",
-                // "CRZ-11": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-11.dwg",
-                // "CRZ-12": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-12.dwg",
+                "CRZ-1": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-1.dwg",
+                "CRZ-2": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-2.dwg",
+                "CRZ-3": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-3.dwg",
+                "CRZ-4": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-4.dwg",
+                "CRZ-5": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-5.dwg",
+                "CRZ-6": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-6.dwg",
+                "CRZ-7": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-7.dwg",
+                "CRZ-8": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-8.dwg",
+                "CRZ-9": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-9.dwg",
+                "CRZ-10": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-10.dwg",
+                "CRZ-11": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-11.dwg",
+                "CRZ-12": "./CRZ/CRZ-Link/SINDHUDURG/CRZ-12.dwg",
                
             },
             "CONTOUR": {
-                // "Alibag_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
-                // "Mhasala_Contour": "./CONTOUR/RAIGAD/Mhasala(1M INTERVAL)CONTOUR.dwg",
-                // "Murud_Contour": "./CONTOUR/RAIGAD/Murud(1M INTERVAL)CONTOUR.dwg",
-                // "Panvel_Contour": "./CONTOUR/RAIGAD/Panvel(1M INTERVAL)CONTOUR.dwg",
-                // "Pen_Contour": "./CONTOUR/RAIGAD/Pen(1M INTERVAL)CONTOUR.dwg",
-                // "Shrivardhan_Contour": "./CONTOUR/RAIGAD/Shrivardhan(1M INTERVAL)CONTOUR.dwg",
-                // "Tala_Contour": "./CONTOUR/RAIGAD/Tala(1M INTERVAL)CONTOUR.dwg",
-                // "Uran_Contour": "./CONTOUR/RAIGAD/Uran(1M INTERVAL)CONTOUR.dwg",
+                // "Devgad_Contour": "./CONTOUR/SINDHUDURG/Devgad(1M INTERVAL)CONTOUR.dwg",
+                // "Malvan_Contour": "./CONTOUR/SINDHUDURG/Malvan(1M INTERVAL)CONTOUR.dwg",
+                // "Vengurla_Contour": "./CONTOUR/SINDHUDURG/Vengurla(1M INTERVAL)CONTOUR.dwg",
+             
            
             },
             "DGPS": {
