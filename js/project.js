@@ -2106,7 +2106,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             "CONTOUR": {
                 "Dahanu_Contour": "./CONTOUR/PALGHAR/DHANU(1M INTERVAL)CONTOUR.dwg",
-                // "Palghar Contour": " ./CRZ/CRZ-Link/PALGHAR/CRZ-2.dwg", 
+                "Palghar Contour": " ./CONTOUR/PALGHAR/PALGHAR 1M INTERVAL.DWG", 
                 "Vasai_Contour": " ./CONTOUR/PALGHAR/VASAI(1M INTERVAL)CONTOUR.dwg",  
             },
             "DGPS": {
