@@ -2419,9 +2419,9 @@ document.addEventListener("DOMContentLoaded", function () {
                
             },
             "CONTOUR": {
-                // "Devgad_Contour": "./CONTOUR/SINDHUDURG/Devgad(1M INTERVAL)CONTOUR.dwg",
-                // "Malvan_Contour": "./CONTOUR/SINDHUDURG/Malvan(1M INTERVAL)CONTOUR.dwg",
-                // "Vengurla_Contour": "./CONTOUR/SINDHUDURG/Vengurla(1M INTERVAL)CONTOUR.dwg",
+                "Devgad_Contour": "./CONTOUR/SINDHUDURG/DEVGAD 1M INTERVAL CONTOUR.DWG",
+                "Malvan_Contour": "./CONTOUR/SINDHUDURG/MALVAN 1M INTERVAL CONTOUR.DWG",
+                "Vengurla_Contour": "./CONTOUR/SINDHUDURG/VENGURLA 1M INTERVAL CONTOUR.DWG",
              
            
             },
