@@ -2558,7 +2558,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     if (TOPOPLANUrl) {
                         // Display the link in the 'ecw' div
-                        TOPOPLANDiv.innerHTML = `<a href="${TOPOPLANUrl}" download> Palghar TOPOPLAN</a>`;
+                        TOPOPLANDiv.innerHTML = `<a href="${TOPOPLANUrl}" download> Download TOPOPLAN</a>`;
                         ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
                     } else {
                         // Handle the case where the ECW URL is not defined
