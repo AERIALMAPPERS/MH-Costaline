@@ -2526,6 +2526,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         ecwPdfDiv.innerHTML = "";
                     }
                 }
+  //crz              
                 else if (selectedCategory === "CRZPdf") {
                     const CRZUrl = ecwData;
 
@@ -2551,7 +2552,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         ecwPdfDiv.innerHTML = "";
                     }
                 }
-
+//topoplan
                 else if (selectedCategory === "TOPOPLAN") {
                     const TOPOPLANUrl = ecwData;
 
@@ -2571,7 +2572,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     if (CONTOURUrl) {
                         // Display the link in the 'ecw' div
-                        CONTOURDiv.innerHTML = `<a href="${CONTOURUrl}" download> CONTOUR</a>`;
+                        CONTOURDiv.innerHTML = `<a href="${CONTOURUrl}" download>Download CONTOUR</a>`;
                         ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
                     } else {
                         // Handle the case where the ECW URL is not defined
@@ -2585,7 +2586,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     if (DGPSUrl) {
                         // Display the link in the 'ecw' div
-                        DGPSDiv.innerHTML = `<a href="${DGPSUrl}" download> Palghar DGPS</a>`;
+                        DGPSDiv.innerHTML = `<a href="${DGPSUrl}" download> Download DGPS</a>`;
                         ecwPdfDiv.innerHTML = ""; // Clear the ecwPdfDiv
                     } else {
                         // Handle the case where the ECW URL is not defined
