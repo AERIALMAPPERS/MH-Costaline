@@ -2347,11 +2347,11 @@ document.addEventListener("DOMContentLoaded", function () {
                  "CRZ-16": "./CRZ/CRZ-Link/RATNAGIRI/CRZ-16.dwg",
             },
             "CONTOUR": {
-                // "Dapoli_Contour": "./CONTOUR/RAIGAD/Alibag(1M INTERVAL)CONTOUR.dwg",
-                // "Guhaghar_Contour": "./CONTOUR/RAIGAD/Mhasala(1M INTERVAL)CONTOUR.dwg",
-                // "Mandangad_Contour": "./CONTOUR/RAIGAD/Murud(1M INTERVAL)CONTOUR.dwg",
-                // "Rajapur_Contour": "./CONTOUR/RAIGAD/Panvel(1M INTERVAL)CONTOUR.dwg",
-                // "Ratnagiri_Contour": "./CONTOUR/RAIGAD/Pen(1M INTERVAL)CONTOUR.dwg",    
+                "Dapoli_Contour": "./CONTOUR/RATNAGIRI/DAPOLI 1M INTERVAL CONTOUR.DWG",
+                "Guhaghar_Contour": "./CONTOUR/RATNAGIRI/GUHAGHAR 1M INTERVAL CONTOUR.DWG",
+                "Mandangad_Contour": "./CONTOUR/RATNAGIRI/MANDANGAD 1M INTERVAL CONTOUR.DWG",
+                "Rajapur_Contour": "./CONTOUR/RATNAGIRI/RAJAPUR 1M INTERVAL CONTOUR.DWG",
+                "Ratnagiri_Contour": "./CONTOUR/RATNAGIRI/RATNAGIRI 1M INTERVAL CONTOUR.DWG",    
            
             },
             "DGPS": {
@@ -2362,10 +2362,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             "DEM": {
                 "Dapoli_DEM": "./DEM/RATNAGIRI/DAPOLI.dem",
-                "Ghuhaghar_DEM": "./DEM/RATNAGIRI/",
+                "Ghuhaghar_DEM": "./DEM/RATNAGIRI/GUHAGHAR.dem",
                 "Mandangad_DEM": "./DEM/RATNAGIRI/MANDANGAD DEM.dem",   
-                "Rajapur_DEM": "./DEM/RATNAGIRI/",
-                "Ratnagiri_DEM": "./DEM/RATNAGIRI/",        
+                // "Rajapur_DEM": "./DEM/RATNAGIRI/",
+                // "Ratnagiri_DEM": "./DEM/RATNAGIRI/",        
             },      
         },
 
