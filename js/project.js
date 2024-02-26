@@ -2372,8 +2372,8 @@ document.addEventListener("DOMContentLoaded", function () {
 //Sindhudurg
         "Sindhudurg": {
             "TOPOPLAN": {
-              // "Sindhudurg" : "./Topoplan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
-             // "Sindhudurg TOPOPLAN" : "./TopoPlan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
+             "Sindhudurg" : "./TopoPlan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
+             "Sindhudurg TOPOPLAN" : "./TopoPlan/SINDHUDURG/SINDHUDURG TOPOPLAN.dwg",
               
              },
             "ecwLink": {
