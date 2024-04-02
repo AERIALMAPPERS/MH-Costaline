@@ -48,6 +48,27 @@
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+/* ///////////////////////////////////// */
+/* body {
+    font-size: 16px; 
+    transition: font-size 0.3s ease; 
+  }
+  
+  #zoomButtons {
+    top: 0px;
+    right: 10px;
+    z-index: 9999;
+    background-color: #d4f4fc;
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 7px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+  } */
 
 /* service */
 .service {
@@ -438,6 +459,106 @@
     cursor: pointer;
 }
 
+/* read more for step */
+/* more step1*/
+.popup-container-s1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 30px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.overlay-s1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup-container-s1 img {
+    height: 300px;
+    width: 600px;
+}
+
+.popup-container-s1 p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.popup-container-s1 #s1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(132, 172, 245);
+    color: rgb(3, 3, 68);
+}
+
+.popup-container-s1 #p1 {
+    color: red;
+}
+
+.popup-container-s1 #s2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(223, 181, 131);
+    color: rgb(107, 81, 16);
+}
+
+.popup-container-s1 #s3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(206, 164, 204);
+    color: rgb(80, 3, 80);
+}
+
+.popup-container-s1 #s4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(162, 184, 130);
+    color: rgb(9, 59, 9);
+}
+
+.popup-container-s1 #s5 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(250, 193, 146);
+    color: brown;
+}
+
+.popup-container-s1 #s6 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: rgb(153, 214, 214);
+    color: rgb(5, 66, 66);
+}
+
+.popup-container-s1 #img9 {
+    height: 500px;
+    width: 300px;
+}
+
+.more-button {
+    cursor: pointer;
+}
+
+.close1 {
+    padding: 7px;
+    font-size: medium;
+    cursor: no-drop;
+    color: rgb(58, 1, 1);
+    box-shadow: 2px 2px 5px rgb(83, 2, 2);
+}
+/* read more end */
+
 /* govt img */
 .govt-img {
     display: flex;
@@ -721,5 +842,299 @@
         cursor: pointer;
         transition: transform 0.1s ease-in-out;
     }
+
+}
+
+
+/* mobile view ============================================================================================================================================================================*/
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+   
+    /* read more Bathymetry*/
+
+    .close {
+        background-color: darkgreen;
+        color: #fff;
+    }
+
+
+    .box:hover .popbox {
+        display: block;
+    }
+
+    /* read more for steps */
+    .popup-container-s1 {
+        display: none;
+        font-size: 0.7rem;
+        position: fixed;
+        top: 45%;
+        left: 35%;
+        margin-left: 40px;
+        transform: translate(-50%, -50%);
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .close1 {
+        padding: 3px;
+        font-size: 0.7rem;
+        cursor: no-drop;
+        color: rgb(58, 1, 1);
+        box-shadow: 2px 2px 5px rgb(83, 2, 2);
+    }
+
+    .popup-container-s1 img {
+        height: 100px;
+        width: 250px;
+    }
+
+    .popup-container-s1 p {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .popup-container-s1 #s1 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s2 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s3 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s4 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s5 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s6 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s7 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s8 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s9 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s10 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s11 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s12 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s13 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s14 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #s15 {
+        font-size: small;
+    }
+
+    .popup-container-s1 #img9 {
+        height: 300px;
+        width: 250px;
+    }
+
+
+}
+
+/* 400 to 500 ==============================================================================================================================================================================*/
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    
+
+    /* read more lidar*/
+    /* read more Bathymetry*/
+    .popup-container {
+        display: none;
+        font-size: 1rem;
+        position: fixed;
+        top: 45%;
+        left: 42%;
+        font-size: 0.8rem;
+        margin-left: 45px;
+        transform: translate(-50%, -50%);
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .popup-container img {
+        height: 200px;
+        width: 350px;
+    }
+
+    .Overview {
+        height: 27vh;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+        border-radius: 30px;
+        /* background-color: #c0c0c0; */
+        border: 1px solid black;
+    }
+
+    .Overview img {
+        margin-left: 10px;
+        margin-top: -20px;
+        height: 230px;
+        width: 430px;
+    }
+
+    .Overview h3 {
+        font-size: 1.3rem;
+        margin-top: 5px;
+    }
+
+    #m2 table {
+        padding: 4px;
+    }
+
+    #m2 table #d1 {
+        font-size: 0.6rem;
+    }
+
+    .popup-container-s1 img {
+        height: 250px;
+        width: 300px;
+    }
+
+}
+
+/* Tablet View ==========================================================================================================================================================================*/
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    body {
+        font-size: 15px;
+    }
+
+    /* read more lidar*/
+    /* read more Bathymetry*/
+    .popup-container {
+        display: none;
+        font-size: 1rem;
+        position: fixed;
+        top: 45%;
+        left: 42%;
+        margin-left: 45px;
+        transform: translate(-50%, -50%);
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .read-more-button {
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .close {
+        background-color: darkgreen;
+        color: #fff;
+        padding: 3px;
+        border-radius: 5%;
+        font-size: 1rem;
+    }
+
+    /* read more for steps */
+    .popup-container-s1 {
+        display: none;
+        font-size: 1rem;
+        position: fixed;
+        top: 45%;
+        left: 42%;
+        margin-left: 45px;
+        transform: translate(-50%, -50%);
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .close1 {
+        padding: 3px;
+        font-size: 1rem;
+        cursor: no-drop;
+        color: rgb(58, 1, 1);
+        box-shadow: 2px 2px 5px rgb(83, 2, 2);
+    }
+
+    .popup-container-s1 img {
+        height: 200px;
+        width: 400px;
+    }
+
+    .popup-container-s1 p {
+        font-style: italic;
+        font-weight: bold;
+    }
+     
+}
+
+/* laptop view ======================================================================================================================================================================*/
+@media only screen and (min-width: 1050px) and (max-width: 1250px) {
+    /* read more lidar*/
+    /* read more Bathymetry*/
+    .popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: 50px;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+
+    .read-more-button {
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .close {
+        background-color: darkgreen;
+        color: #fff;
+    }
+
+   
 
 }
