@@ -12,18 +12,53 @@ body {
 marquee{
     padding: 15px;
     /* background-color: rgb(196, 223, 247); */
-    background-color: #82c8eb;
+    /* background-color: #82c8eb; */
+   background-color:  #004689 ;
+   color: white;
 }
 
 /* live date update  */
 span {
-  float:right;
+  /* float:right; */
 }
 #liveDate {
   font-size: 16px;
   font-family: Arial, sans-serif;
   color: #333;
 }
+/* zoom in zoom out font size */
+body {
+  font-size: 16px; /* Initial font size */
+  transition: font-size 0.3s ease; /* Smooth transition */
+}
+
+#zoomButtons {
+  /* position: fixed; */
+  top: 0px;
+  right: 10px;
+  z-index: 9999;
+  background-color: #d4f4fc;
+}
+   /* Add custom CSS styles for zooming */
+   .zoom-normal {
+    font-size: 16px; /* Change this value according to your original font size */
+}
+/* .zoom-in {
+    font-size: 120%; 
+}
+.zoom-out {
+    font-size: 60%; 
+} */
+
+button {
+  cursor: pointer;
+  margin: 7px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
 header {
     background-color: #ffffff;
     color: #fdfdfd;
