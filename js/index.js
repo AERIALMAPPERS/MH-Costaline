@@ -69,9 +69,9 @@ function showSlides(n) {
 }
  
 //Steps
-function showStep(){
-  window.location.href='./steps.html';
-}
+// function showStep(){
+//   window.location.href='./steps.html';
+// }
 
 // govt logo link
 
@@ -108,3 +108,159 @@ function worldFoodIndia() {
 function IndianPost() {
     window.location.href = 'https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx';
 }
+
+// read more for step
+// step1
+function showStep1() {
+  document.getElementById("overlay-s1").style.display = "block";
+  document.getElementById("popupContainer-s1").style.display = "block";
+}
+function hide1() {
+  document.getElementById("overlay-s1").style.display = "none";
+  document.getElementById("popupContainer-s1").style.display = "none";
+}
+
+//step2
+function showStep2() {
+  document.getElementById("overlay-s2").style.display = "block";
+  document.getElementById("popupContainer-s2").style.display = "block";
+}
+function hide2() {
+  document.getElementById("overlay-s2").style.display = "none";
+  document.getElementById("popupContainer-s2").style.display = "none";
+}
+
+// step3
+function showStep3() {
+  document.getElementById("overlay-s3").style.display = "block";
+  document.getElementById("popupContainer-s3").style.display = "block";
+}
+function hide3() {
+  document.getElementById("overlay-s3").style.display = "none";
+  document.getElementById("popupContainer-s3").style.display = "none";
+}
+
+//step4
+function showStep4(){
+  document.getElementById("overlay-s4").style.display = "block";
+  document.getElementById("popupContainer-s4").style.display = "block";
+}
+function hide4() {
+  document.getElementById("overlay-s4").style.display = "none";
+  document.getElementById("popupContainer-s4").style.display = "none";
+}
+
+// step5
+function showStep5(){
+  document.getElementById("overlay-s5").style.display = "block";
+  document.getElementById("popupContainer-s5").style.display = "block";
+}
+function hide5() {
+  document.getElementById("overlay-s5").style.display = "none";
+  document.getElementById("popupContainer-s5").style.display = "none";
+}
+
+//step6
+function showStep6() {
+  document.getElementById("overlay-s6").style.display = "block";
+  document.getElementById("popupContainer-s6").style.display = "block";
+}
+function hide6() {
+  document.getElementById("overlay-s6").style.display = "none";
+  document.getElementById("popupContainer-s6").style.display = "none";
+}
+
+// step7
+function showStep7() {
+  document.getElementById("overlay-s7").style.display = "block";
+  document.getElementById("popupContainer-s7").style.display = "block";
+}
+function hide7() {
+  document.getElementById("overlay-s7").style.display = "none";
+  document.getElementById("popupContainer-s7").style.display = "none";
+}
+
+//step8
+function showStep8(){
+  document.getElementById("overlay-s8").style.display = "block";
+  document.getElementById("popupContainer-s8").style.display = "block";
+}
+function hide8() {
+  document.getElementById("overlay-s8").style.display = "none";
+  document.getElementById("popupContainer-s8").style.display = "none";
+}
+
+//step 9
+function showStep9() {
+  document.getElementById("overlay-s9").style.display = "block";
+  document.getElementById("popupContainer-s9").style.display = "block";
+}
+function hide9() {
+  document.getElementById("overlay-s9").style.display = "none";
+  document.getElementById("popupContainer-s9").style.display = "none";
+}
+
+//step 10
+function showStep10() {
+  document.getElementById("overlay-s10").style.display = "block";
+  document.getElementById("popupContainer-s10").style.display = "block";
+}
+function hide10() {
+  document.getElementById("overlay-s10").style.display = "none";
+  document.getElementById("popupContainer-s10").style.display = "none";
+}
+
+//step 11
+function showStep11() {
+  document.getElementById("overlay-s11").style.display = "block";
+  document.getElementById("popupContainer-s11").style.display = "block";
+}
+function hide11() {
+  document.getElementById("overlay-s11").style.display = "none";
+  document.getElementById("popupContainer-s11").style.display = "none";
+}
+
+//step 12
+function showStep12() {
+  document.getElementById("overlay-s12").style.display = "block";
+  document.getElementById("popupContainer-s12").style.display = "block";
+}
+function hide12() {
+  document.getElementById("overlay-s12").style.display = "none";
+  document.getElementById("popupContainer-s12").style.display = "none";
+}
+
+//step 13
+function showStep13() {
+  document.getElementById("overlay-s13").style.display = "block";
+  document.getElementById("popupContainer-s13").style.display = "block";
+}
+function hide13() {
+  document.getElementById("overlay-s13").style.display = "none";
+  document.getElementById("popupContainer-s13").style.display = "none";
+}
+
+//step 14
+function showStep14() {
+  document.getElementById("overlay-s14").style.display = "block";
+  document.getElementById("popupContainer-s14").style.display = "block";
+}
+function hide14() {
+  document.getElementById("overlay-s14").style.display = "none";
+  document.getElementById("popupContainer-s14").style.display = "none";
+}
+
+//step 15
+function showStep15(){
+  document.getElementById("overlay-s15").style.display = "block";
+  document.getElementById("popupContainer-s15").style.display = "block";
+}
+function hide15() {
+  document.getElementById("overlay-s15").style.display = "none";
+  document.getElementById("popupContainer-s15").style.display = "none";
+}
+
+
+
+
+   
