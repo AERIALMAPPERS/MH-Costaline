@@ -12,30 +12,42 @@
 <link rel="stylesheet" href="./css/styles.css" />
 
 <body>
-  <!--MARQUEEE  -->
-  <marquee behavior="" direction="left">
-    Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web-based system to search, view, and
-    download geo-referenced village digital maps ,CRZ maps, ECW of coastal areas,DEM , CONTOUR , DGPS & other details of 
-    villages in the coastline area of Maharashtra .
-  </marquee>
-  <span id="liveDate"></span>
-  
-  <!-- HEADING -->
-  <header>
+   <!-- live date and zoom in zoom out buton -->
+   <div id="zoomButtons">
+    <button onclick="zoomOut()">A-</button>
+    <button onclick="resetZoom()">A</button>
+    <button onclick="zoomIn()">A+</button>
+    <span id="liveDate"></span> 
+  </div>
+
+<!-- HEADING -->
+<header>
     <div class="header">
-      <!-- <img src="./image/index/logo.jpg" alt=""> -->
-      <img src="./image/logo/satyamev-jayate.jpg" alt="">
-      <h1>Maharashtra Coastline</h1>
+        <!-- <img src="./image/index/logo.jpg" alt=""> -->
+       <img src="./image/logo/satyamev-jayate.jpg" alt="">
+        <h1>Maharashtra <br>Coastline</h1>
+        <img src="./image/logo/coastl.png" alt="" id="coastal-logo">
+       
     </div>
-  </header>
-  <!-- Navbar -->
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="project.html">Project</a>
-    <a href="data.html">Data</a>
-  </nav>
+</header>
+
+<!-- Navbar -->
+<nav>
+    <a href="index.html" onclick="setActive(this)" class="active">Home</a>
+    <a href="about.html" onclick="setActive(this)">About</a>
+    <a href="service.html" onclick="setActive(this)">Services</a>
+    <a href="features.html" onclick="setActive(this)">Features</a>
+    <a href="gallery.html" onclick="setActive(this)">Gallery</a>
+    <a href="project.html" onclick="setActive(this)">Project</a>
+    <a href="data.html" onclick="setActive(this)">Data</a>
+</nav>
+<!-- <br> -->
+
+<marquee behavior="" direction="left">
+Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web-based system to search, view, and
+download geo-referenced village digital maps ,CRZ maps, ECW of coastal areas,DEM , CONTOUR , DGPS & other details of 
+villages in the coastline area of Maharashtra .
+</marquee>
 
   <main >
     <br>
@@ -494,6 +506,7 @@
   </header>
   <script src="./js/index.js"></script>
   <script src="./js/liveDate.js"></script>
+  <script src="./js/zoomInOut.js"></script>
 </body>
 
 </html>
