@@ -2296,7 +2296,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "ecwLink": {
                 "Dapoli_ECW": "./ECW/Ratnagiri/ECW/DAPOLI.gmw",
                 "Guhaghar_ECW": "./ECW/Ratnagiri/ECW/GUHAGHAR.gmw",
-                "Mandangad_ECW": "./ECW/Raigad/ECW/ALIBAG.gmw",
+                "Mandangad_ECW": "./ECW/Ratnagiri/ECW/MANDANGAD.gmw",
                 "Rajapur_ECW": "./ECW/Ratnagiri/ECW/RAJAPUR.gmw",
                 "Ratnagiri_ECW": "./ECW/Ratnagiri/ECW/RATNAGIRI.gmw",
 
