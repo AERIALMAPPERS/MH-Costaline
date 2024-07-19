@@ -1,3 +1,0 @@
-bawas
-DESKTOP-U9PE4ET 
-27 June 2024  10:01:49
