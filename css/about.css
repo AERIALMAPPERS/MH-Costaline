@@ -35,10 +35,10 @@ main {
 
 }
 
-.img img {
-    width: 100%;
+#myChart{
+    width: 50%;
+    height: 40%;
 }
-
 #about-content p {
     font-style: italic;
     font-size: 1rem;
@@ -154,14 +154,13 @@ main {
 }
 
 .img {
-    /* */
+    
     width: 50%;
 }
-
-.img img {
+ .img img {
     border: 1px solid black;
     box-shadow: 3px 3px 3px 3px rgb(83, 82, 82);
-}
+} 
 
 .brief-p h1 {
     margin-top: 10px;
@@ -260,19 +259,25 @@ margin-top: 10px;
 .map-img button {
     height: 40px;
     width: 70px;
-border-radius: 10%;
+/* border-radius: 10%; */
 text-decoration: overline;
 border-width: 1px;
+border-radius: 20px;
+box-shadow: 0 5px #2e2121;
+cursor: pointer;
 }
 .map-img button:hover {
-    background-color: #ddd;
+    background-color: #c4bbbb;
 }
 #A1{
 background-color: #f3b07a;
+/* font-family: "Trirong", serif; */
 
 }
 #A2{
     background-color: #f3e17a;
+    /* font-family: "Times New Roman", Times, serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 #A3{
     background-color: #7acdf3;
@@ -569,7 +574,7 @@ background-color: #f3b07a;
     }
 
     .img {
-        width: 40%;
+        width: 30%;
     }
 
     .img img {
