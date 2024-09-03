@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-7"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
 <Document>
   <!-- Begin Style Definitions -->
@@ -7,14 +7,12 @@
       <color>FF999900</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFF00FF</color>
+      <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -33,20 +31,20 @@
     <LabelStyle><color>ffff00ff</color></LabelStyle>
   </Style>
   <Folder>
-    <name>KAJIRBATI.dwg</name>
-    <description>KAJIRBATI.dwg</description>
+    <name>Point Features</name>
+    <description>Point Features</description>
     <Placemark>
-      <description><![CDATA[VILLAGE NAME<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>VILLAGE NAME</description>
       <name>KAJIRBHATI</name>
       <styleUrl>#point1</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>73.2829539134,17.1123969426,0</coordinates>
+        <coordinates>73.2850822311,17.1117508559,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH493200.00 M</name>
       <styleUrl>#point2</styleUrl>
       <Point>
@@ -56,7 +54,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH493300.00 M</name>
       <styleUrl>#point3</styleUrl>
       <Point>
@@ -66,7 +64,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH493400.00 M</name>
       <styleUrl>#point4</styleUrl>
       <Point>
@@ -75,8 +73,12 @@
         <coordinates>73.2797310440,17.1067351587,0</coordinates>
       </Point>
     </Placemark>
+  </Folder>
+  <Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -89,7 +91,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -102,7 +104,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -172,38 +174,6 @@
         <extrude>0</extrude>
         <tessellate>1</tessellate>
         <coordinates>
-          73.2870789740,17.1141968980,0
-          73.2859113170,17.1130897540,0
-          73.2844866020,17.1128525800,0
-          73.2838326060,17.1126449940,0
-          73.2831289920,17.1120547530,0
-          73.2830129360,17.1109728070,0
-          73.2831495340,17.1091097830,0
-          73.2825666620,17.1089330010,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.2870789740,17.1141968980,0
-          73.2876401670,17.1138435500,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
           73.2830019280,17.1075736370,0
           73.2846658220,17.1076628650,0
           73.2857755380,17.1081165590,0
@@ -222,6 +192,19 @@
           73.2887599420,17.1133964340,0
           73.2885738810,17.1138052650,0
           73.2881965380,17.1141930940,0
+          73.2876401670,17.1138435500,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>0</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.2870789740,17.1141968980,0
           73.2876401670,17.1138435500,0
         </coordinates>
       </LineString>

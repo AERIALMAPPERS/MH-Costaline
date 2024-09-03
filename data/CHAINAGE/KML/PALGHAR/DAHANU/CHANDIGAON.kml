@@ -11,7 +11,7 @@
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFF00FF</color>
+      <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
     <IconStyle><Icon></Icon></IconStyle>
@@ -238,39 +238,6 @@
         <extrude>0</extrude>
         <tessellate>1</tessellate>
         <coordinates>
-          72.7399931618,19.9420272290,0
-          72.7436355568,19.9425089330,0
-          72.7407573328,19.9406766920,0
-          72.7409428028,19.9381034020,0
-          72.7407449108,19.9355236720,0
-          72.7394908368,19.9334835690,0
-          72.7392089218,19.9307400170,0
-          72.7385825208,19.9305914730,0
-          72.7388238668,19.9317431980,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.7354300808,19.9423614410,0
-          72.7399931618,19.9420272290,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
           72.7388238668,19.9317431980,0
           72.7330852958,19.9323637340,0
           72.7310598068,19.9327756670,0
@@ -383,6 +350,39 @@
           72.7331801128,19.9432678070,0
           72.7341517048,19.9449981530,0
           72.7354300808,19.9423614410,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.7399931618,19.9420272290,0
+          72.7436355568,19.9425089330,0
+          72.7407573328,19.9406766920,0
+          72.7409428028,19.9381034020,0
+          72.7407449108,19.9355236720,0
+          72.7394908368,19.9334835690,0
+          72.7392089218,19.9307400170,0
+          72.7385825208,19.9305914730,0
+          72.7388238668,19.9317431980,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.7354300808,19.9423614410,0
+          72.7399931618,19.9420272290,0
         </coordinates>
       </LineString>
     </Placemark>

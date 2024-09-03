@@ -11,7 +11,7 @@
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFF00FF</color>
+      <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
     <IconStyle><Icon></Icon></IconStyle>
@@ -146,19 +146,6 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.6835708688,19.8125988210,0
-          72.6844609038,19.8125878480,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
       <description>village</description>
       <styleUrl>#line2</styleUrl>
       <LineString>
@@ -204,6 +191,19 @@
           72.6978233298,19.8061205480,0
           72.6980143688,19.8031516890,0
           72.6982566208,19.8028730720,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.6835708688,19.8125988210,0
+          72.6844609038,19.8125878480,0
         </coordinates>
       </LineString>
     </Placemark>

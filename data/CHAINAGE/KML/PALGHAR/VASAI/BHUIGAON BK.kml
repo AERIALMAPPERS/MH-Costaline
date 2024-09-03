@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-7"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
 <Document>
   <!-- Begin Style Definitions -->
@@ -7,14 +7,12 @@
       <color>FF999900</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFF00FF</color>
+      <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -168,11 +166,15 @@
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
     <LabelStyle><color>ffff00ff</color></LabelStyle>
   </Style>
+  <Style id="point39">
+    <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
+    <LabelStyle><color>ffff00ff</color></LabelStyle>
+  </Style>
   <Folder>
-    <name>BHUIGAON BK.dwg</name>
-    <description>BHUIGAON BK.dwg</description>
+    <name>Point Features</name>
+    <description>Point Features</description>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100300.00 M</name>
       <styleUrl>#point1</styleUrl>
       <Point>
@@ -182,7 +184,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100400.00 M</name>
       <styleUrl>#point2</styleUrl>
       <Point>
@@ -192,7 +194,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100500.00 M</name>
       <styleUrl>#point3</styleUrl>
       <Point>
@@ -202,7 +204,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100600.00 M</name>
       <styleUrl>#point4</styleUrl>
       <Point>
@@ -212,7 +214,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100700.00 M</name>
       <styleUrl>#point5</styleUrl>
       <Point>
@@ -222,7 +224,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100800.00 M</name>
       <styleUrl>#point6</styleUrl>
       <Point>
@@ -232,7 +234,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100900.00 M</name>
       <styleUrl>#point7</styleUrl>
       <Point>
@@ -242,7 +244,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101000.00 M</name>
       <styleUrl>#point8</styleUrl>
       <Point>
@@ -252,7 +254,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101100.00 M</name>
       <styleUrl>#point9</styleUrl>
       <Point>
@@ -262,7 +264,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101200.00 M</name>
       <styleUrl>#point10</styleUrl>
       <Point>
@@ -272,7 +274,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101500.00 M</name>
       <styleUrl>#point11</styleUrl>
       <Point>
@@ -282,7 +284,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101600.00 M</name>
       <styleUrl>#point12</styleUrl>
       <Point>
@@ -292,7 +294,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101700.00 M</name>
       <styleUrl>#point13</styleUrl>
       <Point>
@@ -302,7 +304,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101800.00 M</name>
       <styleUrl>#point14</styleUrl>
       <Point>
@@ -312,7 +314,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101900.00 M</name>
       <styleUrl>#point15</styleUrl>
       <Point>
@@ -322,7 +324,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102000.00 M</name>
       <styleUrl>#point16</styleUrl>
       <Point>
@@ -332,7 +334,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102100.00 M</name>
       <styleUrl>#point17</styleUrl>
       <Point>
@@ -342,7 +344,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102200.00 M</name>
       <styleUrl>#point18</styleUrl>
       <Point>
@@ -352,7 +354,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102300.00 M</name>
       <styleUrl>#point19</styleUrl>
       <Point>
@@ -362,7 +364,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102400.00 M</name>
       <styleUrl>#point20</styleUrl>
       <Point>
@@ -372,7 +374,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102500.00 M</name>
       <styleUrl>#point21</styleUrl>
       <Point>
@@ -382,7 +384,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102600.00 M</name>
       <styleUrl>#point22</styleUrl>
       <Point>
@@ -392,7 +394,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102700.00 M</name>
       <styleUrl>#point23</styleUrl>
       <Point>
@@ -402,7 +404,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102900.00 M</name>
       <styleUrl>#point24</styleUrl>
       <Point>
@@ -412,7 +414,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH103000.00 M</name>
       <styleUrl>#point25</styleUrl>
       <Point>
@@ -422,18 +424,17 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[VILLAGE NAME<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <name>BHUIGAON
-BK.</name>
+      <description>VILLAGE NAME</description>
+      <name>BHUIGAON BK.</name>
       <styleUrl>#point26</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>72.7606109616,19.3825822147,0</coordinates>
+        <coordinates>72.7688213979,19.3822132418,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100800.00 M</name>
       <styleUrl>#point27</styleUrl>
       <Point>
@@ -443,7 +444,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH100900.00 M</name>
       <styleUrl>#point28</styleUrl>
       <Point>
@@ -453,7 +454,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101000.00 M</name>
       <styleUrl>#point29</styleUrl>
       <Point>
@@ -463,7 +464,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101100.00 M</name>
       <styleUrl>#point30</styleUrl>
       <Point>
@@ -473,7 +474,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101200.00 M</name>
       <styleUrl>#point31</styleUrl>
       <Point>
@@ -483,7 +484,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101300.00 M</name>
       <styleUrl>#point32</styleUrl>
       <Point>
@@ -493,7 +494,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101400.00 M</name>
       <styleUrl>#point33</styleUrl>
       <Point>
@@ -503,7 +504,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101500.00 M</name>
       <styleUrl>#point34</styleUrl>
       <Point>
@@ -513,7 +514,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH101600.00 M</name>
       <styleUrl>#point35</styleUrl>
       <Point>
@@ -523,7 +524,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH103100.00 M</name>
       <styleUrl>#point36</styleUrl>
       <Point>
@@ -533,7 +534,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH103200.00 M</name>
       <styleUrl>#point37</styleUrl>
       <Point>
@@ -543,7 +544,7 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>PA-CH102800.00 M</name>
       <styleUrl>#point38</styleUrl>
       <Point>
@@ -553,7 +554,21 @@ BK.</name>
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
+      <name>PA-CH100200.00 M</name>
+      <styleUrl>#point39</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>72.7600462136,19.3887054329,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
+    <Placemark>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -566,7 +581,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -579,7 +594,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -592,7 +607,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -605,7 +620,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -618,7 +633,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -631,7 +646,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -644,7 +659,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -657,7 +672,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -670,7 +685,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -683,7 +698,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -696,7 +711,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -709,7 +724,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -722,7 +737,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -735,7 +750,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -748,7 +763,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -761,7 +776,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -774,7 +789,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -787,7 +802,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -800,7 +815,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -813,7 +828,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -826,7 +841,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -839,7 +854,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -852,7 +867,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -865,7 +880,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -878,7 +893,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -891,7 +906,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -904,7 +919,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -917,7 +932,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -930,7 +945,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -943,7 +958,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -956,7 +971,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -969,7 +984,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -982,7 +997,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -995,7 +1010,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -1008,7 +1023,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -1021,7 +1036,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -1034,7 +1049,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -1047,7 +1062,7 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -1060,62 +1075,15 @@ BK.</name>
       </LineString>
     </Placemark>
     <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
+      <description>CS</description>
+      <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
         <tessellate>1</tessellate>
         <coordinates>
-          72.7800990368,19.3892412140,0
-          72.7801732438,19.3889489110,0
-          72.7798094988,19.3887411040,0
-          72.7798689798,19.3883411070,0
-          72.7801422708,19.3882937980,0
-          72.7803088368,19.3888059850,0
-          72.7807166868,19.3886846770,0
-          72.7812010868,19.3888272290,0
-          72.7814034498,19.3880007520,0
-          72.7811760538,19.3878953160,0
-          72.7814343488,19.3871717560,0
-          72.7819052598,19.3872801110,0
-          72.7823921768,19.3871898690,0
-          72.7826774118,19.3868636220,0
-          72.7831968048,19.3874409550,0
-          72.7828440948,19.3884303940,0
-          72.7822521288,19.3903709920,0
-          72.7825215178,19.3901359640,0
-          72.7829219658,19.3889158260,0
-          72.7835795878,19.3887342640,0
-          72.7843793028,19.3889920220,0
-          72.7845744198,19.3887746280,0
-          72.7859009768,19.3885880600,0
-          72.7858450508,19.3880556230,0
-          72.7856015308,19.3871947990,0
-          72.7852546978,19.3872292500,0
-          72.7852737418,19.3865989380,0
-          72.7850776008,19.3865066040,0
-          72.7852066508,19.3860097470,0
-          72.7851261668,19.3849534510,0
-          72.7852984488,19.3832051200,0
-          72.7857576078,19.3827005830,0
-          72.7856497898,19.3824744890,0
-          72.7861752598,19.3815825310,0
-          72.7861812038,19.3811791340,0
-          72.7866802718,19.3805477160,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.7792547508,19.3888536320,0
-          72.7800990368,19.3892412140,0
+          72.7614652404,19.3882661865,0
+          72.7601159454,19.3887085471,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -1176,6 +1144,17 @@ BK.</name>
           72.7703883568,19.3843367160,0
           72.7707215808,19.3847258720,0
           72.7708748678,19.3848670410,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
           72.7721036808,19.3847836060,0
           72.7721421698,19.3841390140,0
           72.7731417858,19.3840766830,0
@@ -1212,6 +1191,55 @@ BK.</name>
           72.7786431658,19.3882212010,0
           72.7785519548,19.3888296300,0
           72.7792547508,19.3888536320,0
+          72.7800990368,19.3892412140,0
+          72.7801732438,19.3889489110,0
+          72.7798094988,19.3887411040,0
+          72.7798689798,19.3883411070,0
+          72.7801422708,19.3882937980,0
+          72.7803088368,19.3888059850,0
+          72.7807166868,19.3886846770,0
+          72.7812010868,19.3888272290,0
+          72.7814034498,19.3880007520,0
+          72.7811760538,19.3878953160,0
+          72.7814343488,19.3871717560,0
+          72.7819052598,19.3872801110,0
+          72.7823921768,19.3871898690,0
+          72.7826774118,19.3868636220,0
+          72.7831968048,19.3874409550,0
+          72.7828440948,19.3884303940,0
+          72.7822521288,19.3903709920,0
+          72.7825215178,19.3901359640,0
+          72.7829219658,19.3889158260,0
+          72.7835795878,19.3887342640,0
+          72.7843793028,19.3889920220,0
+          72.7845744198,19.3887746280,0
+          72.7859009768,19.3885880600,0
+          72.7858450508,19.3880556230,0
+          72.7856015308,19.3871947990,0
+          72.7852546978,19.3872292500,0
+          72.7852737418,19.3865989380,0
+          72.7850776008,19.3865066040,0
+          72.7852066508,19.3860097470,0
+          72.7851261668,19.3849534510,0
+          72.7852984488,19.3832051200,0
+          72.7857576078,19.3827005830,0
+          72.7856497898,19.3824744890,0
+          72.7861752598,19.3815825310,0
+          72.7861812038,19.3811791340,0
+          72.7866802718,19.3805477160,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>0</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.7708748678,19.3848670410,0
+          72.7721036808,19.3847836060,0
         </coordinates>
       </LineString>
     </Placemark>

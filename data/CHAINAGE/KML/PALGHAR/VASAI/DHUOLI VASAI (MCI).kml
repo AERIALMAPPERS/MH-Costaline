@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-7"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
 <Document>
   <!-- Begin Style Definitions -->
@@ -7,14 +7,12 @@
       <color>FF999900</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFF00FF</color>
+      <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -57,10 +55,10 @@
     <LabelStyle><color>ff333333</color></LabelStyle>
   </Style>
   <Folder>
-    <name>DHUOLI VASAI (MCI).dwg</name>
-    <description>DHUOLI VASAI (MCI).dwg</description>
+    <name>Point Features</name>
+    <description>Point Features</description>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH106800.00 M</name>
       <styleUrl>#point1</styleUrl>
       <Point>
@@ -70,7 +68,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH106900.00 M</name>
       <styleUrl>#point2</styleUrl>
       <Point>
@@ -80,7 +78,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107000.00 M</name>
       <styleUrl>#point3</styleUrl>
       <Point>
@@ -90,7 +88,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107100.00 M</name>
       <styleUrl>#point4</styleUrl>
       <Point>
@@ -100,7 +98,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107200.00 M</name>
       <styleUrl>#point5</styleUrl>
       <Point>
@@ -110,7 +108,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107300.00 M</name>
       <styleUrl>#point6</styleUrl>
       <Point>
@@ -120,7 +118,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107400.00 M</name>
       <styleUrl>#point7</styleUrl>
       <Point>
@@ -130,7 +128,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107500.00 M</name>
       <styleUrl>#point8</styleUrl>
       <Point>
@@ -140,7 +138,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CSMark<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CSMark</description>
       <name>CH107600.00 M</name>
       <styleUrl>#point9</styleUrl>
       <Point>
@@ -150,19 +148,22 @@
       </Point>
     </Placemark>
     <Placemark>
-      <description><![CDATA[VILLAGE NAME<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <name>DHUOLI
-VASAI
+      <description>VILLAGE NAME</description>
+      <name>DHUOLI VASAI
 (MCI)</name>
       <styleUrl>#point10</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>72.7976444450,19.3472107539,0</coordinates>
+        <coordinates>72.8028813340,19.3501942752,0</coordinates>
       </Point>
     </Placemark>
+  </Folder>
+  <Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -175,7 +176,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -188,7 +189,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -201,7 +202,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -214,7 +215,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -227,7 +228,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -240,7 +241,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -253,7 +254,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -266,7 +267,7 @@ VASAI
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[CS<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>CS</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -275,70 +276,6 @@ VASAI
         <coordinates>
           72.7953945990,19.3362575018,0
           72.7929190562,19.3349089002,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.8028509628,19.3517723900,0
-          72.8034140948,19.3516011940,0
-          72.8037222888,19.3518902960,0
-          72.8048855818,19.3507314560,0
-          72.8053291879,19.3510607200,0
-          72.8047490018,19.3517808990,0
-          72.8044522558,19.3523228290,0
-          72.8049838288,19.3528110690,0
-          72.8050580038,19.3522892980,0
-          72.8054507929,19.3517143580,0
-          72.8062457659,19.3521426070,0
-          72.8063976199,19.3518881040,0
-          72.8069990109,19.3521924420,0
-          72.8068313529,19.3524353080,0
-          72.8072799719,19.3526527720,0
-          72.8075678419,19.3525141750,0
-          72.8081690269,19.3527766830,0
-          72.8079497049,19.3531913980,0
-          72.8086184459,19.3535186300,0
-          72.8094190199,19.3535310240,0
-          72.8100461009,19.3539591000,0
-          72.8100788779,19.3542118540,0
-          72.8106810089,19.3546122730,0
-          72.8102821719,19.3552424810,0
-          72.8105749399,19.3554283860,0
-          72.8104521359,19.3559932140,0
-          72.8110703859,19.3562651150,0
-          72.8110907529,19.3567425410,0
-          72.8114965229,19.3569850860,0
-          72.8118421509,19.3569483020,0
-          72.8141443269,19.3575767500,0
-          72.8150174639,19.3575171800,0
-          72.8155877699,19.3580062060,0
-          72.8160789089,19.3577057270,0
-          72.8163047389,19.3578009150,0
-          72.8168480579,19.3586544620,0
-          72.8171435889,19.3587228610,0
-          72.8177939909,19.3582833150,0
-          72.8183688289,19.3586808720,0
-          72.8187923319,19.3585733750,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.8022071617,19.3515968553,0
-          72.8028509628,19.3517723900,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -426,6 +363,70 @@ VASAI
           72.8015893028,19.3507815190,0
           72.8023993238,19.3508981330,0
           72.8022098688,19.3515870120,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.8028509628,19.3517723900,0
+          72.8034140948,19.3516011940,0
+          72.8037222888,19.3518902960,0
+          72.8048855818,19.3507314560,0
+          72.8053291879,19.3510607200,0
+          72.8047490018,19.3517808990,0
+          72.8044522558,19.3523228290,0
+          72.8049838288,19.3528110690,0
+          72.8050580038,19.3522892980,0
+          72.8054507929,19.3517143580,0
+          72.8062457659,19.3521426070,0
+          72.8063976199,19.3518881040,0
+          72.8069990109,19.3521924420,0
+          72.8068313529,19.3524353080,0
+          72.8072799719,19.3526527720,0
+          72.8075678419,19.3525141750,0
+          72.8081690269,19.3527766830,0
+          72.8079497049,19.3531913980,0
+          72.8086184459,19.3535186300,0
+          72.8094190199,19.3535310240,0
+          72.8100461009,19.3539591000,0
+          72.8100788779,19.3542118540,0
+          72.8106810089,19.3546122730,0
+          72.8102821719,19.3552424810,0
+          72.8105749399,19.3554283860,0
+          72.8104521359,19.3559932140,0
+          72.8110703859,19.3562651150,0
+          72.8110907529,19.3567425410,0
+          72.8114965229,19.3569850860,0
+          72.8118421509,19.3569483020,0
+          72.8141443269,19.3575767500,0
+          72.8150174639,19.3575171800,0
+          72.8155877699,19.3580062060,0
+          72.8160789089,19.3577057270,0
+          72.8163047389,19.3578009150,0
+          72.8168480579,19.3586544620,0
+          72.8171435889,19.3587228610,0
+          72.8177939909,19.3582833150,0
+          72.8183688289,19.3586808720,0
+          72.8187923319,19.3585733750,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>0</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.8022071617,19.3515968553,0
+          72.8028509628,19.3517723900,0
         </coordinates>
       </LineString>
     </Placemark>
